@@ -1,0 +1,540 @@
+{
+  "colorRoles": [
+    {
+      "name": "Color/Primary",
+      "token": "primary",
+      "usage": "fill"
+    },
+    {
+      "name": "Color/Secondary",
+      "token": "secondary",
+      "usage": "fill"
+    },
+    {
+      "name": "Color/Text/Primary",
+      "token": "ink",
+      "usage": "text"
+    },
+    {
+      "name": "Color/Text/Secondary",
+      "token": "muted",
+      "usage": "text"
+    },
+    {
+      "name": "Color/Text/Muted",
+      "token": "faint",
+      "usage": "text"
+    },
+    {
+      "name": "Color/Text/Disabled",
+      "token": "faint",
+      "usage": "text"
+    },
+    {
+      "name": "Color/Text/Inverse",
+      "token": "surface",
+      "usage": "text"
+    },
+    {
+      "name": "Color/Background/Canvas",
+      "token": "ground",
+      "usage": "fill"
+    },
+    {
+      "name": "Color/Background/Surface",
+      "token": "surface",
+      "usage": "fill"
+    },
+    {
+      "name": "Color/Background/Disabled",
+      "token": "disabled",
+      "usage": "fill"
+    },
+    {
+      "name": "Color/Border/Default",
+      "token": "border",
+      "usage": "stroke"
+    },
+    {
+      "name": "Color/Border/Outline",
+      "token": "muted",
+      "usage": "stroke"
+    },
+    {
+      "name": "Color/Divider/Default",
+      "token": "border",
+      "usage": "fill"
+    },
+    {
+      "name": "Color/Semantic/Success",
+      "token": "success",
+      "usage": "all"
+    },
+    {
+      "name": "Color/Semantic/SuccessSurface",
+      "token": "successSoft",
+      "usage": "fill"
+    },
+    {
+      "name": "Color/Semantic/Warning",
+      "token": "warning",
+      "usage": "all"
+    },
+    {
+      "name": "Color/Semantic/WarningSurface",
+      "token": "warningSoft",
+      "usage": "fill"
+    },
+    {
+      "name": "Color/Semantic/Error",
+      "token": "danger",
+      "usage": "all"
+    },
+    {
+      "name": "Color/Semantic/ErrorSurface",
+      "token": "dangerSoft",
+      "usage": "fill"
+    },
+    {
+      "name": "Color/Semantic/Information",
+      "token": "info",
+      "usage": "all"
+    },
+    {
+      "name": "Color/Semantic/InformationSurface",
+      "token": "infoSoft",
+      "usage": "fill"
+    },
+    {
+      "name": "Color/Interactive/Hover",
+      "token": "primaryHover",
+      "usage": "fill"
+    },
+    {
+      "name": "Color/Interactive/Pressed",
+      "token": "primaryPressed",
+      "usage": "fill"
+    },
+    {
+      "name": "Color/Interactive/Selected",
+      "token": "infoSoft",
+      "usage": "fill"
+    },
+    {
+      "name": "Color/Interactive/Focus",
+      "token": "focus",
+      "usage": "all"
+    }
+  ],
+  "textRoles": [
+    {
+      "name": "Text/Display",
+      "family": "Poppins",
+      "size": 48,
+      "weight": 600,
+      "lineHeight": 60,
+      "letterSpacing": -1.6
+    },
+    {
+      "name": "Text/Heading/H1",
+      "family": "Poppins",
+      "size": 23,
+      "weight": 600,
+      "lineHeight": 28.75,
+      "letterSpacing": -0.7
+    },
+    {
+      "name": "Text/Page heading",
+      "family": "Poppins",
+      "size": 23,
+      "weight": 600,
+      "lineHeight": 28.75,
+      "letterSpacing": -0.7
+    },
+    {
+      "name": "Text/Heading/H2",
+      "family": "Poppins",
+      "size": 19,
+      "weight": 600,
+      "lineHeight": 28.5,
+      "letterSpacing": -0.45
+    },
+    {
+      "name": "Text/Heading/H3",
+      "family": "Poppins",
+      "size": 16,
+      "weight": 600,
+      "lineHeight": 24,
+      "letterSpacing": -0.25
+    },
+    {
+      "name": "Text/Heading/H4",
+      "family": "Poppins",
+      "size": 15,
+      "weight": 600,
+      "lineHeight": 22.5,
+      "letterSpacing": -0.25
+    },
+    {
+      "name": "Text/Heading/H5",
+      "family": "Poppins",
+      "size": 14,
+      "weight": 600,
+      "lineHeight": 21,
+      "letterSpacing": -0.2
+    },
+    {
+      "name": "Text/Heading/H6",
+      "family": "Poppins",
+      "size": 13,
+      "weight": 600,
+      "lineHeight": 19.5,
+      "letterSpacing": -0.15
+    },
+    {
+      "name": "Text/Body/Large",
+      "family": "Poppins",
+      "size": 16,
+      "weight": 400,
+      "lineHeight": 24,
+      "letterSpacing": 0
+    },
+    {
+      "name": "Text/Body/Medium",
+      "family": "Poppins",
+      "size": 14,
+      "weight": 400,
+      "lineHeight": 21,
+      "letterSpacing": 0
+    },
+    {
+      "name": "Text/Body/Small",
+      "family": "Poppins",
+      "size": 12,
+      "weight": 400,
+      "lineHeight": 18,
+      "letterSpacing": 0
+    },
+    {
+      "name": "Text/Label/Medium",
+      "family": "Poppins",
+      "size": 12,
+      "weight": 500,
+      "lineHeight": 18,
+      "letterSpacing": 0
+    },
+    {
+      "name": "Text/Label/Large",
+      "family": "Poppins",
+      "size": 14,
+      "weight": 500,
+      "lineHeight": 21,
+      "letterSpacing": 0
+    },
+    {
+      "name": "Text/Caption",
+      "family": "Poppins",
+      "size": 11,
+      "weight": 400,
+      "lineHeight": 16.5,
+      "letterSpacing": 0
+    },
+    {
+      "name": "Text/Button/Small",
+      "family": "Poppins",
+      "size": 12,
+      "weight": 500,
+      "lineHeight": 18,
+      "letterSpacing": 0
+    },
+    {
+      "name": "Text/Button/Medium",
+      "family": "Poppins",
+      "size": 12,
+      "weight": 500,
+      "lineHeight": 18,
+      "letterSpacing": 0
+    },
+    {
+      "name": "Text/Button/Large",
+      "family": "Poppins",
+      "size": 14,
+      "weight": 500,
+      "lineHeight": 21,
+      "letterSpacing": 0
+    },
+    {
+      "name": "Text/Table/Header",
+      "family": "Poppins",
+      "size": 11,
+      "weight": 500,
+      "lineHeight": 16.5,
+      "letterSpacing": 0
+    },
+    {
+      "name": "Text/Table/Cell",
+      "family": "Poppins",
+      "size": 12,
+      "weight": 400,
+      "lineHeight": 18,
+      "letterSpacing": 0
+    },
+    {
+      "name": "Text/Table/Amount",
+      "family": "Poppins",
+      "size": 12,
+      "weight": 500,
+      "lineHeight": 18,
+      "letterSpacing": 0
+    },
+    {
+      "name": "Text/Helper",
+      "family": "Poppins",
+      "size": 11,
+      "weight": 400,
+      "lineHeight": 16.5,
+      "letterSpacing": 0
+    },
+    {
+      "name": "Text/Validation",
+      "family": "Poppins",
+      "size": 11,
+      "weight": 400,
+      "lineHeight": 16.5,
+      "letterSpacing": 0
+    },
+    {
+      "name": "Text/Dialog/Title",
+      "family": "Poppins",
+      "size": 17,
+      "weight": 600,
+      "lineHeight": 25.5,
+      "letterSpacing": -0.35
+    },
+    {
+      "name": "Text/Metric",
+      "family": "Poppins",
+      "size": 27,
+      "weight": 600,
+      "lineHeight": 40.5,
+      "letterSpacing": -0.9
+    }
+  ],
+  "canonical": [
+    {
+      "name": "Text/Display",
+      "family": "Poppins",
+      "size": 48,
+      "weight": 600,
+      "lineHeight": 60,
+      "letterSpacing": -1.6
+    },
+    {
+      "name": "Text/Heading/H1",
+      "family": "Poppins",
+      "size": 23,
+      "weight": 600,
+      "lineHeight": 28.75,
+      "letterSpacing": -0.7
+    },
+    {
+      "name": "Text/Heading/H2",
+      "family": "Poppins",
+      "size": 19,
+      "weight": 600,
+      "lineHeight": 28.5,
+      "letterSpacing": -0.45
+    },
+    {
+      "name": "Text/Heading/H3",
+      "family": "Poppins",
+      "size": 16,
+      "weight": 600,
+      "lineHeight": 24,
+      "letterSpacing": -0.25
+    },
+    {
+      "name": "Text/Heading/H4",
+      "family": "Poppins",
+      "size": 15,
+      "weight": 600,
+      "lineHeight": 22.5,
+      "letterSpacing": -0.25
+    },
+    {
+      "name": "Text/Heading/H5",
+      "family": "Poppins",
+      "size": 14,
+      "weight": 600,
+      "lineHeight": 21,
+      "letterSpacing": -0.2
+    },
+    {
+      "name": "Text/Heading/H6",
+      "family": "Poppins",
+      "size": 13,
+      "weight": 600,
+      "lineHeight": 19.5,
+      "letterSpacing": -0.15
+    },
+    {
+      "name": "Text/Body/Large",
+      "family": "Poppins",
+      "size": 16,
+      "weight": 400,
+      "lineHeight": 24,
+      "letterSpacing": 0
+    },
+    {
+      "name": "Text/Body/Medium",
+      "family": "Poppins",
+      "size": 14,
+      "weight": 400,
+      "lineHeight": 21,
+      "letterSpacing": 0
+    },
+    {
+      "name": "Text/Body/Small",
+      "family": "Poppins",
+      "size": 12,
+      "weight": 400,
+      "lineHeight": 18,
+      "letterSpacing": 0
+    },
+    {
+      "name": "Text/Label/Medium",
+      "family": "Poppins",
+      "size": 12,
+      "weight": 500,
+      "lineHeight": 18,
+      "letterSpacing": 0
+    },
+    {
+      "name": "Text/Label/Large",
+      "family": "Poppins",
+      "size": 14,
+      "weight": 500,
+      "lineHeight": 21,
+      "letterSpacing": 0
+    },
+    {
+      "name": "Text/Caption",
+      "family": "Poppins",
+      "size": 11,
+      "weight": 400,
+      "lineHeight": 16.5,
+      "letterSpacing": 0
+    },
+    {
+      "name": "Text/Table/Header",
+      "family": "Poppins",
+      "size": 11,
+      "weight": 500,
+      "lineHeight": 16.5,
+      "letterSpacing": 0
+    },
+    {
+      "name": "Text/Dialog/Title",
+      "family": "Poppins",
+      "size": 17,
+      "weight": 600,
+      "lineHeight": 25.5,
+      "letterSpacing": -0.35
+    },
+    {
+      "name": "Text/Metric",
+      "family": "Poppins",
+      "size": 27,
+      "weight": 600,
+      "lineHeight": 40.5,
+      "letterSpacing": -0.9
+    }
+  ],
+  "aliases": {
+    "Text/Display": "Text/Display",
+    "Text/Heading/H1": "Text/Heading/H1",
+    "Text/Page heading": "Text/Heading/H1",
+    "Text/Heading/H2": "Text/Heading/H2",
+    "Text/Heading/H3": "Text/Heading/H3",
+    "Text/Heading/H4": "Text/Heading/H4",
+    "Text/Heading/H5": "Text/Heading/H5",
+    "Text/Heading/H6": "Text/Heading/H6",
+    "Text/Body/Large": "Text/Body/Large",
+    "Text/Body/Medium": "Text/Body/Medium",
+    "Text/Body/Small": "Text/Body/Small",
+    "Text/Label/Medium": "Text/Label/Medium",
+    "Text/Label/Large": "Text/Label/Large",
+    "Text/Caption": "Text/Caption",
+    "Text/Button/Small": "Text/Label/Medium",
+    "Text/Button/Medium": "Text/Label/Medium",
+    "Text/Button/Large": "Text/Label/Large",
+    "Text/Table/Header": "Text/Table/Header",
+    "Text/Table/Cell": "Text/Body/Small",
+    "Text/Table/Amount": "Text/Label/Medium",
+    "Text/Helper": "Text/Caption",
+    "Text/Validation": "Text/Caption",
+    "Text/Dialog/Title": "Text/Dialog/Title",
+    "Text/Metric": "Text/Metric"
+  },
+  "effectRoles": [
+    {
+      "name": "Effect/Overlay/Popover",
+      "uses": [
+        "Dropdown",
+        "Popover",
+        "Action menu"
+      ],
+      "shadows": [
+        {
+          "x": 0,
+          "y": 12,
+          "blur": 40,
+          "spread": 0,
+          "alpha": 0.0784313725490196
+        },
+        {
+          "x": 0,
+          "y": 2,
+          "blur": 8,
+          "spread": 0,
+          "alpha": 0.0196078431372549
+        }
+      ]
+    },
+    {
+      "name": "Effect/Overlay/Modal",
+      "uses": [
+        "Modal",
+        "Dialog"
+      ],
+      "shadows": [
+        {
+          "x": 0,
+          "y": 20,
+          "blur": 80,
+          "spread": 0,
+          "alpha": 0.16862745098039217
+        }
+      ]
+    },
+    {
+      "name": "Effect/Focus/Ring",
+      "uses": [
+        "Focused controls"
+      ],
+      "color": "focus",
+      "shadows": [
+        {
+          "x": 0,
+          "y": 0,
+          "blur": 0,
+          "spread": 3,
+          "alpha": 1
+        }
+      ]
+    }
+  ],
+  "themes": [
+    "Light"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "name": "booksdotnet — Native UI Library",
+  "id": "REPLACE_WITH_FIGMA_ASSIGNED_PLUGIN_ID",
+  "api": "1.0.0",
+  "main": "code.js",
+  "editorType": [
+    "figma"
+  ],
+  "documentAccess": "dynamic-page",
+  "networkAccess": {
+    "allowedDomains": [
+      "none"
+    ]
+  }
+}

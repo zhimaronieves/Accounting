@@ -1,0 +1,8 @@
+node_modules/
+dist/
+*.log
+
+# Approved private initialization snapshot; keep local.
+src/v3-initial-snapshot.json
+
+.vite-v3/

@@ -1,0 +1,4 @@
+.ui-v2 textarea.v3-resizable-textarea,
+.ui-v2 .v2-record-page textarea.v3-resizable-textarea {display:block;width:100%;max-width:100%;min-width:0;min-height:100px;height:110px;resize:vertical;box-sizing:border-box;border:1px solid #dbe3ed;border-radius:7px;padding:10px 12px;font-family:inherit;font-size:13px;font-weight:400;line-height:1.6;background:#fff;color:#334155;white-space:pre-wrap;overflow:auto;}
+.ui-v2 textarea.v3-resizable-textarea:read-only,
+.ui-v2 textarea.v3-resizable-textarea:disabled {background:#f8fafc;color:#475569;opacity:1;}

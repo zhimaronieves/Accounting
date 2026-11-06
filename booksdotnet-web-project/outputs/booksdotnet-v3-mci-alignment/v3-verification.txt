@@ -1,0 +1,338 @@
+
+> booksdotnet-v3-mci-alignment@1.0.0 test
+> node --test src/versions/v3.test.js src/data.test.js src/accounting.test.js src/design-system/catalog.test.js src/design-system/pagination.test.js src/design-system/foundations.test.js src/versions/v2/accounting.test.js src/versions/v2/equity.test.js src/versions/v2/statements.test.js
+
+TAP version 13
+# Subtest: Owner capital samples populate October and upgrade saved books without duplicates or lost entries
+ok 1 - Owner capital samples populate October and upgrade saved books without duplicates or lost entries
+  ---
+  duration_ms: 18.8849
+  type: 'test'
+  ...
+# Subtest: Seed books balance; reports, cash flow, subledgers and dashboard reconcile
+ok 2 - Seed books balance; reports, cash flow, subledgers and dashboard reconcile
+  ---
+  duration_ms: 13.7547
+  type: 'test'
+  ...
+# Subtest: Draft journals do not affect books; posting validates balance; reversal offsets once
+ok 3 - Draft journals do not affect books; posting validates balance; reversal offsets once
+  ---
+  duration_ms: 26.3687
+  type: 'test'
+  ...
+# Subtest: Invoice draft/issue, tax posting and partial receipts preserve AR and prevent overpayments
+ok 4 - Invoice draft/issue, tax posting and partial receipts preserve AR and prevent overpayments
+  ---
+  duration_ms: 21.213
+  type: 'test'
+  ...
+# Subtest: Bills and payments update AP and cash together; aging totals agree
+ok 5 - Bills and payments update AP and cash together; aging totals agree
+  ---
+  duration_ms: 15.6635
+  type: 'test'
+  ...
+# Subtest: Currency parser, account uniqueness and archive checks reject invalid inputs
+ok 6 - Currency parser, account uniqueness and archive checks reject invalid inputs
+  ---
+  duration_ms: 11.4122
+  type: 'test'
+  ...
+# Subtest: Voids retain historical balances and offset only on the void date
+ok 7 - Voids retain historical balances and offset only on the void date
+  ---
+  duration_ms: 12.1802
+  type: 'test'
+  ...
+# Subtest: Manual journals cannot bypass AR/AP source documents; accrual drafts post safely
+ok 8 - Manual journals cannot bypass AR/AP source documents; accrual drafts post safely
+  ---
+  duration_ms: 7.0877
+  type: 'test'
+  ...
+# Subtest: Expense credits stay signed and do not create negative donut allocations
+ok 9 - Expense credits stay signed and do not create negative donut allocations
+  ---
+  duration_ms: 8.7985
+  type: 'test'
+  ...
+# Subtest: October totals reconcile with the ledger and charts
+ok 10 - October totals reconcile with the ledger and charts
+  ---
+  duration_ms: 17.9462
+  type: 'test'
+  ...
+# Subtest: Date presets are inclusive and custom filters exclude outside rows
+ok 11 - Date presets are inclusive and custom filters exclude outside rows
+  ---
+  duration_ms: 1.763
+  type: 'test'
+  ...
+# Subtest: The single-page catalog has every requested category with unique reusable variant identities
+ok 12 - The single-page catalog has every requested category with unique reusable variant identities
+  ---
+  duration_ms: 3.2875
+  type: 'test'
+  ...
+# Subtest: All six button styles cover every size and state; approved blue buttons retain white labels
+ok 13 - All six button styles cover every size and state; approved blue buttons retain white labels
+  ---
+  duration_ms: 0.6249
+  type: 'test'
+  ...
+# Subtest: Native export trees contain supported editable primitives, valid token references, and finite geometry
+ok 14 - Native export trees contain supported editable primitives, valid token references, and finite geometry
+  ---
+  duration_ms: 5.4816
+  type: 'test'
+  ...
+# Subtest: Semantic color roles resolve to the existing light application palette
+ok 15 - Semantic color roles resolve to the existing light application palette
+  ---
+  duration_ms: 2.5527
+  type: 'test'
+  ...
+# Subtest: Every requested text role is covered without duplicate registered font definitions
+ok 16 - Every requested text role is covered without duplicate registered font definitions
+  ---
+  duration_ms: 0.9864
+  type: 'test'
+  ...
+# Subtest: Elevation follows source overlays and does not add shadows to flat cards
+ok 17 - Elevation follows source overlays and does not add shadows to flat cards
+  ---
+  duration_ms: 0.24
+  type: 'test'
+  ...
+# Subtest: Numbered pagination shows real page destinations and no phantom empty page
+ok 18 - Numbered pagination shows real page destinations and no phantom empty page
+  ---
+  duration_ms: 2.5891
+  type: 'test'
+  ...
+# Subtest: Upgrade preserves original accounting records, assigns stable masters and is idempotent
+ok 19 - Upgrade preserves original accounting records, assigns stable masters and is idempotent
+  ---
+  duration_ms: 30.3755
+  type: 'test'
+  ...
+# Subtest: Multiple invoice allocations create one payment and one journal, with idempotent replay
+ok 20 - Multiple invoice allocations create one payment and one journal, with idempotent replay
+  ---
+  duration_ms: 20.6527
+  type: 'test'
+  ...
+# Subtest: Cross-party allocation, overpayment, duplicate allocation and draft allocation fail atomically
+ok 21 - Cross-party allocation, overpayment, duplicate allocation and draft allocation fail atomically
+  ---
+  duration_ms: 12.0624
+  type: 'test'
+  ...
+# Subtest: Supplier draft can be edited and posted once under the same document ID
+ok 22 - Supplier draft can be edited and posted once under the same document ID
+  ---
+  duration_ms: 9.5736
+  type: 'test'
+  ...
+# Subtest: Supplier multi-bill payment reduces AP and cash once
+ok 23 - Supplier multi-bill payment reduces AP and cash once
+  ---
+  duration_ms: 8.8157
+  type: 'test'
+  ...
+# Subtest: Dated credit notes retain source posting, reconcile and prohibit a second void
+ok 24 - Dated credit notes retain source posting, reconcile and prohibit a second void
+  ---
+  duration_ms: 13.8216
+  type: 'test'
+  ...
+# Subtest: Cumulative credit tax rounding returns exactly the original tax on full credit
+ok 25 - Cumulative credit tax rounding returns exactly the original tax on full credit
+  ---
+  duration_ms: 12.6919
+  type: 'test'
+  ...
+# Subtest: Supplier credit posts an offset without changing the original bill
+ok 26 - Supplier credit posts an offset without changing the original bill
+  ---
+  duration_ms: 9.2616
+  type: 'test'
+  ...
+# Subtest: Master rename preserves issued snapshots and transaction association across V1 additions
+ok 27 - Master rename preserves issued snapshots and transaction association across V1 additions
+  ---
+  duration_ms: 8.9197
+  type: 'test'
+  ...
+# Subtest: V1 payments appear once in V2 and both versions continue using shared balances
+ok 28 - V1 payments appear once in V2 and both versions continue using shared balances
+  ---
+  duration_ms: 13.6412
+  type: 'test'
+  ...
+# Subtest: One-cent credits can reverse rounded tax without empty journal lines
+ok 29 - One-cent credits can reverse rounded tax without empty journal lines
+  ---
+  duration_ms: 161.4932
+  type: 'test'
+  ...
+# Subtest: V1 payment cannot backdate before a V2 credit and reused master aliases cannot collide
+ok 30 - V1 payment cannot backdate before a V2 credit and reused master aliases cannot collide
+  ---
+  duration_ms: 8.8418
+  type: 'test'
+  ...
+# Subtest: V2 statement sequence excludes the independent trial balance
+ok 31 - V2 statement sequence excludes the independent trial balance
+  ---
+  duration_ms: 1.3295
+  type: 'test'
+  ...
+# Subtest: Beginning equity, contributions, drawings and earnings roll forward to the balance sheet
+ok 32 - Beginning equity, contributions, drawings and earnings roll forward to the balance sheet
+  ---
+  duration_ms: 15.3369
+  type: 'test'
+  ...
+# Subtest: Equity statement ignores drafts and future movements and includes posted reversals
+ok 33 - Equity statement ignores drafts and future movements and includes posted reversals
+  ---
+  duration_ms: 23.9959
+  type: 'test'
+  ...
+# Subtest: A period with no activity preserves opening balances
+ok 34 - A period with no activity preserves opening balances
+  ---
+  duration_ms: 6.7954
+  type: 'test'
+  ...
+# Subtest: Period losses reduce closing equity without changing contribution movements
+ok 35 - Period losses reduce closing equity without changing contribution movements
+  ---
+  duration_ms: 8.0671
+  type: 'test'
+  ...
+# Subtest: All four statements reconcile for every supported preset and seeded transaction snapshot
+ok 36 - All four statements reconcile for every supported preset and seeded transaction snapshot
+  ---
+  duration_ms: 119.3746
+  type: 'test'
+  ...
+# Subtest: Drafts, future entries and out-of-period activity do not change period income
+ok 37 - Drafts, future entries and out-of-period activity do not change period income
+  ---
+  duration_ms: 15.4099
+  type: 'test'
+  ...
+# Subtest: Equity matrix uses configured components, signed movements and no forced corporate columns
+ok 38 - Equity matrix uses configured components, signed movements and no forced corporate columns
+  ---
+  duration_ms: 13.26
+  type: 'test'
+  ...
+# Subtest: Balance Sheet flags unknown classifications and keeps their amounts in the accounting equation
+ok 39 - Balance Sheet flags unknown classifications and keeps their amounts in the accounting equation
+  ---
+  duration_ms: 10.5536
+  type: 'test'
+  ...
+# Subtest: Income subtotals include cost of sales, other income, financing cost and tax only when configured
+ok 40 - Income subtotals include cost of sales, other income, financing cost and tax only when configured
+  ---
+  duration_ms: 11.0868
+  type: 'test'
+  ...
+# Subtest: Cash flow excludes noncash capital and internal bank transfers and flags ambiguous compound journals
+ok 41 - Cash flow excludes noncash capital and internal bank transfers and flags ambiguous compound journals
+  ---
+  duration_ms: 14.6848
+  type: 'test'
+  ...
+# Subtest: Cash policy is honored and unknown / variable classifications stay visible for review
+ok 42 - Cash policy is honored and unknown / variable classifications stay visible for review
+  ---
+  duration_ms: 13.1788
+  type: 'test'
+  ...
+# Subtest: AP settlement of an equipment bill is investing; later advance applications are not cash movements
+ok 43 - AP settlement of an equipment bill is investing; later advance applications are not cash movements
+  ---
+  duration_ms: 14.1171
+  type: 'test'
+  ...
+# Subtest: An unbalanced imported ledger is reported rather than forced to balance
+ok 44 - An unbalanced imported ledger is reported rather than forced to balance
+  ---
+  duration_ms: 7.8479
+  type: 'test'
+  ...
+# Subtest: V3 has exactly the requested modules and its own routes; removed and old routes resolve safely
+ok 45 - V3 has exactly the requested modules and its own routes; removed and old routes resolve safely
+  ---
+  duration_ms: 1.5662
+  type: 'test'
+  ...
+# Subtest: Existing permission data remains present, but AR/AP writes and hidden page access are unavailable
+ok 46 - Existing permission data remains present, but AR/AP writes and hidden page access are unavailable
+  ---
+  duration_ms: 0.8255
+  type: 'test'
+  ...
+# Subtest: Direct mutation attempts cannot change imported AR/AP or removed configuration data
+ok 47 - Direct mutation attempts cannot change imported AR/AP or removed configuration data
+  ---
+  duration_ms: 1.4171
+  type: 'test'
+  ...
+# Subtest: All six AR/AP views retain posted records and their references while drafts remain stored but hidden
+ok 48 - All six AR/AP views retain posted records and their references while drafts remain stored but hidden
+  ---
+  duration_ms: 5.9725
+  type: 'test'
+  ...
+# Subtest: AR/AP create URLs expose no creation controls; posted detail pages retain the existing static financial fields
+ok 49 - AR/AP create URLs expose no creation controls; posted detail pages retain the existing static financial fields
+  ---
+  duration_ms: 92.1007
+  type: 'test'
+  ...
+# Subtest: Header Settings stays visible without a settings menu or hidden navigation
+ok 50 - Header Settings stays visible without a settings menu or hidden navigation
+  ---
+  duration_ms: 9.2319
+  type: 'test'
+  ...
+# Subtest: Accounting journals, typed bank posting, company balances and reconciliation keep the existing engine
+ok 51 - Accounting journals, typed bank posting, company balances and reconciliation keep the existing engine
+  ---
+  duration_ms: 120.6058
+  type: 'test'
+  ...
+# Subtest: Financial reports continue using preserved company configuration
+ok 52 - Financial reports continue using preserved company configuration
+  ---
+  duration_ms: 11.0999
+  type: 'test'
+  ...
+# Subtest: The approved private seed retains all source records and initializes an independent object graph
+ok 53 - The approved private seed retains all source records and initializes an independent object graph
+  ---
+  duration_ms: 4.4281
+  type: 'test'
+  ...
+# Subtest: V1/V2 source, assets and project configuration remain byte-for-byte unchanged
+ok 54 - V1/V2 source, assets and project configuration remain byte-for-byte unchanged
+  ---
+  duration_ms: 20.486
+  type: 'test'
+  ...
+1..54
+# tests 54
+# suites 0
+# pass 54
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 2012.548

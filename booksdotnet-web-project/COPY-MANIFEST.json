@@ -1,0 +1,1117 @@
+[
+  {
+    "path": "outputs/ledgerflow-dashboard/.gitignore",
+    "sha256": "e8bc935ce727f1809c792f4c5d26c5fc75ba2b7df7fc9390c56c8892f6a6007f",
+    "bytes": 26
+  },
+  {
+    "path": "outputs/ledgerflow-dashboard/DESIGN_SYSTEM_HANDOFF.md",
+    "sha256": "86aa5e06fa806527d3c1136e0cf72150948704a9a460cf9c4d5310757074979b",
+    "bytes": 12064
+  },
+  {
+    "path": "outputs/ledgerflow-dashboard/figma-library-builder/code.js",
+    "sha256": "61fbefc125aecfb1dcafaa8cc7eeaf61addb91a517ceadf7546ae48e9d1683a3",
+    "bytes": 525371
+  },
+  {
+    "path": "outputs/ledgerflow-dashboard/figma-library-builder/inventory.json",
+    "sha256": "e8f45addebada5991e3c44e59a48c3a0f43467c2bed1a49800757d4540aca93d",
+    "bytes": 112508
+  },
+  {
+    "path": "outputs/ledgerflow-dashboard/figma-library-builder/manifest.json",
+    "sha256": "8683021a32a70e6bd351b904d78bde36375049f98b0f339e37aa895a54427596",
+    "bytes": 277
+  },
+  {
+    "path": "outputs/ledgerflow-dashboard/figma-library-builder/README.md",
+    "sha256": "5777abfa4a75c51e071ffb8ba6572ab0479e0643c6121c9b1dbf9febc81c5ec9",
+    "bytes": 11690
+  },
+  {
+    "path": "outputs/ledgerflow-dashboard/figma-library-builder/style-registry-plan.json",
+    "sha256": "32199868490b5099d4a0fdaf16e159f98d19931213471a1873cf9fe89da49c01",
+    "bytes": 11235
+  },
+  {
+    "path": "outputs/ledgerflow-dashboard/index.html",
+    "sha256": "9d93ef8384e10193f135a09091191e1060480877b95bd758e98d95e0471ad52d",
+    "bytes": 980
+  },
+  {
+    "path": "outputs/ledgerflow-dashboard/package-lock.json",
+    "sha256": "b66175a50fcdda1d7683939d8a961d049ecd597015961980fcef30e0291777b9",
+    "bytes": 96163
+  },
+  {
+    "path": "outputs/ledgerflow-dashboard/package.json",
+    "sha256": "a012bd8f681bc4d080afa9b5505a715db323506735a62d8dade1928ed1b3e698",
+    "bytes": 1157
+  },
+  {
+    "path": "outputs/ledgerflow-dashboard/public/booksdotnet-logo.png",
+    "sha256": "68a3f13b59f5425d54d3b7c8a202f3bb13b9c3f88a48f0233ae727652c666a2a",
+    "bytes": 110767
+  },
+  {
+    "path": "outputs/ledgerflow-dashboard/public/figma-capture.js",
+    "sha256": "6250837866c12d793eee0078c1b20569b156b3b8e3465274a2ca235ed47e7b5b",
+    "bytes": 388127
+  },
+  {
+    "path": "outputs/ledgerflow-dashboard/README.md",
+    "sha256": "42b7ad2d5833aaa4541abc812b6acdbb645a067be5024b57d5111366b4454f80",
+    "bytes": 38590
+  },
+  {
+    "path": "outputs/ledgerflow-dashboard/scripts/build-figma-library.mjs",
+    "sha256": "a1c6af31a97ebf844253b3a1c398d60364487669015e3e150789d09456b5cb2e",
+    "bytes": 2814
+  },
+  {
+    "path": "outputs/ledgerflow-dashboard/scripts/figma-library-runtime.js",
+    "sha256": "048d13448758602044c793888bdb884d22eb33a33b4a0f9eb02cf6fa5a0f8e45",
+    "bytes": 23499
+  },
+  {
+    "path": "outputs/ledgerflow-dashboard/src/accounting.js",
+    "sha256": "111663f88de856e3f7adc2a68c72494dcd712523da9e41053659496f4f6c37e3",
+    "bytes": 26389
+  },
+  {
+    "path": "outputs/ledgerflow-dashboard/src/accounting.test.js",
+    "sha256": "1879e07c20726c592192dd162542f9f5e02f87bba1ca068c11a74a8a7bf25d12",
+    "bytes": 8315
+  },
+  {
+    "path": "outputs/ledgerflow-dashboard/src/App.jsx",
+    "sha256": "9249237c29e4efdc9aa037e1e8e04425dd16638e799b2bd06a6800f6d49d65b3",
+    "bytes": 30570
+  },
+  {
+    "path": "outputs/ledgerflow-dashboard/src/data.js",
+    "sha256": "d1ec458b6f783db48b337880288cfe965ad027149829c15bab0d52a6fca55884",
+    "bytes": 7262
+  },
+  {
+    "path": "outputs/ledgerflow-dashboard/src/data.test.js",
+    "sha256": "9c0a5f49d57d9a17024ba8ab945b313bd37209e046fc60918cd4026b3da4225a",
+    "bytes": 1758
+  },
+  {
+    "path": "outputs/ledgerflow-dashboard/src/design-system/Button.jsx",
+    "sha256": "1dead0a086865a7fb7945095130e730d0732485dad252b2b0fae3a14c4ca7362",
+    "bytes": 157
+  },
+  {
+    "path": "outputs/ledgerflow-dashboard/src/design-system/catalog.js",
+    "sha256": "4c4398169b75297d890bbbc0f2a10e55c48cc536292265bec5a04fd1a78c4474",
+    "bytes": 37598
+  },
+  {
+    "path": "outputs/ledgerflow-dashboard/src/design-system/catalog.test.js",
+    "sha256": "8d58e0c2344220b5763296fbc7455e84a02e895a63b181a50e986c94f5b89faf",
+    "bytes": 2238
+  },
+  {
+    "path": "outputs/ledgerflow-dashboard/src/design-system/foundations.js",
+    "sha256": "f8e74d0234588a92929c827c87898c5e15d464557145376e5e1ced634a22350f",
+    "bytes": 3501
+  },
+  {
+    "path": "outputs/ledgerflow-dashboard/src/design-system/foundations.test.js",
+    "sha256": "1413ec1e07dd394ea97bc81952112ece4b4423b3ffef74086186f8587f5daa4f",
+    "bytes": 1598
+  },
+  {
+    "path": "outputs/ledgerflow-dashboard/src/design-system/pagination.js",
+    "sha256": "f3c0c7d10913585ec23a9f1595a3b07a98e7e6aeef54a7231c9d49a75e283f0c",
+    "bytes": 775
+  },
+  {
+    "path": "outputs/ledgerflow-dashboard/src/design-system/Pagination.jsx",
+    "sha256": "074e547a7964422e7eeb0e207828f84c142d9e2e309551e2b94d644828a6c750",
+    "bytes": 1163
+  },
+  {
+    "path": "outputs/ledgerflow-dashboard/src/design-system/pagination.test.js",
+    "sha256": "b64abfbf474ca3621b270d696f1e516145005a297c33cfd334d881c24f15c564",
+    "bytes": 665
+  },
+  {
+    "path": "outputs/ledgerflow-dashboard/src/design-system/showcase.css",
+    "sha256": "5b653f0179fd7790e2655b7a54101b83fb679bbaec96aa36d0eaf3ab43adc217",
+    "bytes": 6421
+  },
+  {
+    "path": "outputs/ledgerflow-dashboard/src/design-system/Showcase.jsx",
+    "sha256": "eacd76b17d8edaaef46f63f474ff0e65f0dda9b0e347ce9a0d415355fa653ca6",
+    "bytes": 9778
+  },
+  {
+    "path": "outputs/ledgerflow-dashboard/src/design-system/tokens.css",
+    "sha256": "da252aecef8d99c40af814340d1692424fd2188779e19dba7c9676c690666bb5",
+    "bytes": 1818
+  },
+  {
+    "path": "outputs/ledgerflow-dashboard/src/design-system/tokens.js",
+    "sha256": "fc00e186f7b75bedc5aae8499c82f789eb96088f45641d533e08ab8a34684a2b",
+    "bytes": 1699
+  },
+  {
+    "path": "outputs/ledgerflow-dashboard/src/main.jsx",
+    "sha256": "4be04c94f3cedc1ebda20804a6ac8f186c8cf53d3793e09d09ca68c4cf08c619",
+    "bytes": 600
+  },
+  {
+    "path": "outputs/ledgerflow-dashboard/src/Modal.jsx",
+    "sha256": "fc14128073a7c0c02547f597bd691245db17f5e19e618f7cf6b6dc380bce1569",
+    "bytes": 865
+  },
+  {
+    "path": "outputs/ledgerflow-dashboard/src/module-ui.jsx",
+    "sha256": "9f630c866cf9ac5bbca5954669d0344c2fe6720fafa50125295d8ccbe94ecdbb",
+    "bytes": 6894
+  },
+  {
+    "path": "outputs/ledgerflow-dashboard/src/ModuleForms.jsx",
+    "sha256": "f9cdd935f08d5382c6a4d54c3fe4e0b20b3fbbb7094a08dce74320cc676d0535",
+    "bytes": 14205
+  },
+  {
+    "path": "outputs/ledgerflow-dashboard/src/modules.css",
+    "sha256": "82454203aadca285dc0a1d695b8a6466c99474b186ae4cf33efa728758e73f74",
+    "bytes": 12063
+  },
+  {
+    "path": "outputs/ledgerflow-dashboard/src/Modules.jsx",
+    "sha256": "6634af6bd790604cecad8fb5ec3c3cd99dc5419ebab67d7797405a885f925ac1",
+    "bytes": 32106
+  },
+  {
+    "path": "outputs/ledgerflow-dashboard/src/styles.css",
+    "sha256": "3745852feacbc2702c675b3895a1013bbcc675c1bf2c30f7d50cca676903ac7c",
+    "bytes": 28893
+  },
+  {
+    "path": "outputs/ledgerflow-dashboard/src/useWorkspace.js",
+    "sha256": "a05c7e2cc24762e32481746a7f20d18e554be36cc387433b5c2c9963ad7166bd",
+    "bytes": 1410
+  },
+  {
+    "path": "outputs/ledgerflow-dashboard/src/versions/navigation.js",
+    "sha256": "46fee5e292232d84b4f9c415999ba73e7bb0714ae082bf8236bf8fa788632542",
+    "bytes": 4461
+  },
+  {
+    "path": "outputs/ledgerflow-dashboard/src/versions/navigation.test.js",
+    "sha256": "260c42fba6e74add589a19fb4608c46908c68c74ec5295d35842d17cbaded498",
+    "bytes": 1919
+  },
+  {
+    "path": "outputs/ledgerflow-dashboard/src/versions/v2/AccessContext.jsx",
+    "sha256": "3816b08eb1ffb7ea86ad6e396a812b3e65c8ebfbe0b7d26fcc9e69a04998a66f",
+    "bytes": 180
+  },
+  {
+    "path": "outputs/ledgerflow-dashboard/src/versions/v2/accounting.js",
+    "sha256": "91944282218961101030f903a75f213858c83d6f7e5e4c3e373012ed085491f2",
+    "bytes": 13153
+  },
+  {
+    "path": "outputs/ledgerflow-dashboard/src/versions/v2/accounting.test.js",
+    "sha256": "daf2d1119ce2c35cc8930ef3622e16d49463d86846ebeb3052d9b0461ea302b9",
+    "bytes": 9304
+  },
+  {
+    "path": "outputs/ledgerflow-dashboard/src/versions/v2/AccountingDefaults.jsx",
+    "sha256": "dd95289ab247d4f01789f5a9e2e0389aaee790ab3c1f84f5e148cb9bbfb63449",
+    "bytes": 1940
+  },
+  {
+    "path": "outputs/ledgerflow-dashboard/src/versions/v2/AccountRecords.jsx",
+    "sha256": "dccc3a4c36f4510cd4767b88bb016fa04963b523cd3ddfb88186ee0ce9f4bad1",
+    "bytes": 7160
+  },
+  {
+    "path": "outputs/ledgerflow-dashboard/src/versions/v2/bank-transaction.js",
+    "sha256": "edba7a21ad0650596911869d82be865927e86b6820f9e013a58ef3ce715447b4",
+    "bytes": 5853
+  },
+  {
+    "path": "outputs/ledgerflow-dashboard/src/versions/v2/BankAccounts.jsx",
+    "sha256": "29449ac72df010fb83a02420d63c37f41415c7379658be64759e520cadd7cd81",
+    "bytes": 8931
+  },
+  {
+    "path": "outputs/ledgerflow-dashboard/src/versions/v2/banking.js",
+    "sha256": "c971eca50d60bc3da194feb1b2f9d77bdbb3c6a45b2275f16c7d0732a5a78796",
+    "bytes": 18690
+  },
+  {
+    "path": "outputs/ledgerflow-dashboard/src/versions/v2/banking.test.js",
+    "sha256": "fe39a0d7392e78776a909ad2d5cb64ad5334390d7d842ce5bb57f1f06eb2f350",
+    "bytes": 20677
+  },
+  {
+    "path": "outputs/ledgerflow-dashboard/src/versions/v2/BankReconciliation.jsx",
+    "sha256": "1a72359e80c23ae259fd49a6f71b11f261a0bb1c2b0074a15dc6755f301fd3c2",
+    "bytes": 14905
+  },
+  {
+    "path": "outputs/ledgerflow-dashboard/src/versions/v2/BankTransactionForm.jsx",
+    "sha256": "536814ba5cbe22e1d109b80fa306a679bf67676a2ee8fdf1e2191909a9cfaa0e",
+    "bytes": 8638
+  },
+  {
+    "path": "outputs/ledgerflow-dashboard/src/versions/v2/BankTransactions.jsx",
+    "sha256": "6bdbb1ebb098d17a54bcfb40f2ac2b6dd7ddd4e6d2fb492fe83ffcbc67ee9dc0",
+    "bytes": 9802
+  },
+  {
+    "path": "outputs/ledgerflow-dashboard/src/versions/v2/configuration-data.js",
+    "sha256": "af57a081277e144f410366fec729f5985b74b011177ed29ba2829752b397b4f1",
+    "bytes": 3372
+  },
+  {
+    "path": "outputs/ledgerflow-dashboard/src/versions/v2/configuration.js",
+    "sha256": "34fd97afa64897c073053c824450eb1ddd035f5f4d6e9c1ffa73f0a041284831",
+    "bytes": 6504
+  },
+  {
+    "path": "outputs/ledgerflow-dashboard/src/versions/v2/Configuration.jsx",
+    "sha256": "a80cec36fced27c346dc65d85560f58ed76e2c10dea96810302dd0da5f2adae7",
+    "bytes": 7403
+  },
+  {
+    "path": "outputs/ledgerflow-dashboard/src/versions/v2/configuration.test.js",
+    "sha256": "680c2743183286a6f8753794de418aa26fb31c33826c99c550547478568df8ca",
+    "bytes": 8169
+  },
+  {
+    "path": "outputs/ledgerflow-dashboard/src/versions/v2/credit-labels.js",
+    "sha256": "0409f2d47bb43f56a3a48e8d25c913d499c7b7e66ec3733a0047429b472f08b6",
+    "bytes": 367
+  },
+  {
+    "path": "outputs/ledgerflow-dashboard/src/versions/v2/credit-ui.test.js",
+    "sha256": "8ea916a965f9a24db0a63cc320f1c974a069fd1aab5c9f7c32fa53255be4ed74",
+    "bytes": 27760
+  },
+  {
+    "path": "outputs/ledgerflow-dashboard/src/versions/v2/DocumentForm.jsx",
+    "sha256": "218fdb147dd0afda9385afe0a7884fcf6f7bef2233b6a65018d0ed1bbc1ba56d",
+    "bytes": 12108
+  },
+  {
+    "path": "outputs/ledgerflow-dashboard/src/versions/v2/equity.js",
+    "sha256": "00c50985461a130381b274b58b86dedf7f4680f5eb5768d523c054e2c8bc7b59",
+    "bytes": 1245
+  },
+  {
+    "path": "outputs/ledgerflow-dashboard/src/versions/v2/equity.test.js",
+    "sha256": "c3e2a12a46302945bd532983b79520d54bbaad651aa94a5ee6c6f36306c791b5",
+    "bytes": 3194
+  },
+  {
+    "path": "outputs/ledgerflow-dashboard/src/versions/v2/FinancialStatements.jsx",
+    "sha256": "7837291298b4563c2d0aa8894eed3c0901b04e526d06bde718e5c41d540cd5e3",
+    "bytes": 7572
+  },
+  {
+    "path": "outputs/ledgerflow-dashboard/src/versions/v2/FormLayout.jsx",
+    "sha256": "50f3199651865bdb310c77a3e4c3913dcba7a85bb819959c519f385492a41882",
+    "bytes": 540
+  },
+  {
+    "path": "outputs/ledgerflow-dashboard/src/versions/v2/Forms.jsx",
+    "sha256": "4e1bd69e0e9259c346dd7448807c6103a48e474a69c856b21c87837df610d678",
+    "bytes": 8884
+  },
+  {
+    "path": "outputs/ledgerflow-dashboard/src/versions/v2/JournalForm.jsx",
+    "sha256": "256fac6bb8816984662df1c9c96f4e4e1fb43d606fd60c6974a31b1346443564",
+    "bytes": 6260
+  },
+  {
+    "path": "outputs/ledgerflow-dashboard/src/versions/v2/JournalRecords.jsx",
+    "sha256": "e46fce46a662e5a68043289e1d783ca6930dd46baec4eaef9335a4dfe440bd27",
+    "bytes": 7278
+  },
+  {
+    "path": "outputs/ledgerflow-dashboard/src/versions/v2/masterfile.js",
+    "sha256": "7268e6202e5ee004ba53511259ba82555b3111d78959f122aa1162bc823a6602",
+    "bytes": 17150
+  },
+  {
+    "path": "outputs/ledgerflow-dashboard/src/versions/v2/Masterfile.jsx",
+    "sha256": "5d53d0079c8177c42b2a4ea0e7a66de92ba506de55d7d7dc1f2fee87bd67e36d",
+    "bytes": 22109
+  },
+  {
+    "path": "outputs/ledgerflow-dashboard/src/versions/v2/masterfile.test.js",
+    "sha256": "49236b96f7a06e19d541cbc73462049706ecac32f447137fc7bd61ee25c9b5e6",
+    "bytes": 9426
+  },
+  {
+    "path": "outputs/ledgerflow-dashboard/src/versions/v2/Notes.jsx",
+    "sha256": "f73b8f66f2888b75c291de63768c477ee49e7bf750570f9721831d7ad14267dc",
+    "bytes": 11756
+  },
+  {
+    "path": "outputs/ledgerflow-dashboard/src/versions/v2/page-descriptions.js",
+    "sha256": "68273b4b37ed76c8e97f1f6b4ef1de562e7c981b63f7e81c750d71c199568f16",
+    "bytes": 2865
+  },
+  {
+    "path": "outputs/ledgerflow-dashboard/src/versions/v2/PaymentForm.jsx",
+    "sha256": "8af86c42cf91bad817fb3c7e3ae411679ba185e70b9ffb70765f96b685075f8f",
+    "bytes": 9977
+  },
+  {
+    "path": "outputs/ledgerflow-dashboard/src/versions/v2/Payments.jsx",
+    "sha256": "c928ac85aa05ff4c6efcecb9ea05e2e12ab0a02eff510e1de26aab76509cae0b",
+    "bytes": 6715
+  },
+  {
+    "path": "outputs/ledgerflow-dashboard/src/versions/v2/permissions.js",
+    "sha256": "ef9261c03bd6a02cba3c9a26db99a621e56028c57f1d855901c642a512b4b941",
+    "bytes": 15562
+  },
+  {
+    "path": "outputs/ledgerflow-dashboard/src/versions/v2/permissions.test.js",
+    "sha256": "211a60b8fa735f656eabfc7eda0a40129f8aed46e6ee37d11823629cca4213ed",
+    "bytes": 7614
+  },
+  {
+    "path": "outputs/ledgerflow-dashboard/src/versions/v2/posting.js",
+    "sha256": "ddedc699f31173c541e4b916c5e1959c221884574e109c09f4cc60adb576f339",
+    "bytes": 2016
+  },
+  {
+    "path": "outputs/ledgerflow-dashboard/src/versions/v2/RecordPage.jsx",
+    "sha256": "1611a8531db1438516556ece0c63dcb6729815ecf159fb5e5110c8aed4ed4665",
+    "bytes": 7593
+  },
+  {
+    "path": "outputs/ledgerflow-dashboard/src/versions/v2/RefLookup.jsx",
+    "sha256": "3acbbffbe982f620e484da7ee514260ecf19c8c9072ec0bf19fc98662fb0fcd1",
+    "bytes": 1188
+  },
+  {
+    "path": "outputs/ledgerflow-dashboard/src/versions/v2/Screens.jsx",
+    "sha256": "cb85b4387f47aef151434db411ca4229732a496103e1793f8758dac9b2742e81",
+    "bytes": 22989
+  },
+  {
+    "path": "outputs/ledgerflow-dashboard/src/versions/v2/search.js",
+    "sha256": "0af0690c76c5f80c8c99c22675b3e42296c094ccf9c38c82dcf3cb195305dcfd",
+    "bytes": 2011
+  },
+  {
+    "path": "outputs/ledgerflow-dashboard/src/versions/v2/SearchableSelect.jsx",
+    "sha256": "1d2b56c96d33841b92dca497a28f9bd83f6be2d11814789b61798882595fdc6c",
+    "bytes": 6289
+  },
+  {
+    "path": "outputs/ledgerflow-dashboard/src/versions/v2/shell.css",
+    "sha256": "0338ecf3331c487e314a661d84bca37c8aecfacebb21a88c8c96a16ee8ee007d",
+    "bytes": 33086
+  },
+  {
+    "path": "outputs/ledgerflow-dashboard/src/versions/v2/Shell.jsx",
+    "sha256": "045d58c56a1b0c74524a42c7b95a5abc519d3bbc271598b00d81045d1dddfd4d",
+    "bytes": 20780
+  },
+  {
+    "path": "outputs/ledgerflow-dashboard/src/versions/v2/Sidebar.jsx",
+    "sha256": "2651548fa30cc81c351637f80a9cdc3a3bd78e2c84b0b93ef3bb5dc300f788b3",
+    "bytes": 3173
+  },
+  {
+    "path": "outputs/ledgerflow-dashboard/src/versions/v2/statements.js",
+    "sha256": "292ae9a679f67fd8beaff43a8cd71001f75571f6afd535a3f343dffcb2784e31",
+    "bytes": 13180
+  },
+  {
+    "path": "outputs/ledgerflow-dashboard/src/versions/v2/statements.test.js",
+    "sha256": "ef3254e9476aff43bbe27d32973d83acaaf3aaa28b3c40836d15468e60556e07",
+    "bytes": 7613
+  },
+  {
+    "path": "outputs/ledgerflow-dashboard/src/versions/v2/TransactionFields.jsx",
+    "sha256": "83c03d822c212d4faa194cf66ba3c8d0595017e94a4407a9801d81431ca98739",
+    "bytes": 1732
+  },
+  {
+    "path": "outputs/ledgerflow-dashboard/src/versions/v2/transactions.js",
+    "sha256": "d05e867bea8e4cad8c5ecae11634634d130abe9ec494fcfdc31ff94e696aaaca",
+    "bytes": 17796
+  },
+  {
+    "path": "outputs/ledgerflow-dashboard/src/versions/v2/transactions.test.js",
+    "sha256": "185dd03fb684804c315396c21337f518a364d5497bce8390941f6f8163611edb",
+    "bytes": 11147
+  },
+  {
+    "path": "outputs/ledgerflow-dashboard/src/versions/v2/Users.jsx",
+    "sha256": "eff52c88e796503b7312f541779092ad437b34b29640cd619dfc11a98b732d02",
+    "bytes": 9860
+  },
+  {
+    "path": "outputs/ledgerflow-dashboard/src/versions/v2/v2.css",
+    "sha256": "bc1505225d13d3cb0d73f73e6c9f66813c2bcef7cbff062debb9a03084aab3d4",
+    "bytes": 5809
+  },
+  {
+    "path": "outputs/ledgerflow-dashboard/test-results-latest.txt",
+    "sha256": "a6673c88c21daaf6200a6dd2b0947c9a9946160884a7dc04a04338c7c747eaa8",
+    "bytes": 33434
+  },
+  {
+    "path": "outputs/ledgerflow-dashboard/vite.config.js",
+    "sha256": "8cc9de083fec7be9cffa353378d89ae815932942a111b47963f467fa0548bbc7",
+    "bytes": 192
+  },
+  {
+    "path": "outputs/booksdotnet-v3-mci-alignment/.gitignore",
+    "sha256": "ae524e9ddb0eef22987136efeb63cca04e372ae1455638724f29352fba703635",
+    "bytes": 131
+  },
+  {
+    "path": "outputs/booksdotnet-v3-mci-alignment/DESIGN_SYSTEM_HANDOFF.md",
+    "sha256": "86aa5e06fa806527d3c1136e0cf72150948704a9a460cf9c4d5310757074979b",
+    "bytes": 12064
+  },
+  {
+    "path": "outputs/booksdotnet-v3-mci-alignment/figma-library-builder/code.js",
+    "sha256": "61fbefc125aecfb1dcafaa8cc7eeaf61addb91a517ceadf7546ae48e9d1683a3",
+    "bytes": 525371
+  },
+  {
+    "path": "outputs/booksdotnet-v3-mci-alignment/figma-library-builder/inventory.json",
+    "sha256": "e8f45addebada5991e3c44e59a48c3a0f43467c2bed1a49800757d4540aca93d",
+    "bytes": 112508
+  },
+  {
+    "path": "outputs/booksdotnet-v3-mci-alignment/figma-library-builder/manifest.json",
+    "sha256": "8683021a32a70e6bd351b904d78bde36375049f98b0f339e37aa895a54427596",
+    "bytes": 277
+  },
+  {
+    "path": "outputs/booksdotnet-v3-mci-alignment/figma-library-builder/README.md",
+    "sha256": "5777abfa4a75c51e071ffb8ba6572ab0479e0643c6121c9b1dbf9febc81c5ec9",
+    "bytes": 11690
+  },
+  {
+    "path": "outputs/booksdotnet-v3-mci-alignment/figma-library-builder/style-registry-plan.json",
+    "sha256": "32199868490b5099d4a0fdaf16e159f98d19931213471a1873cf9fe89da49c01",
+    "bytes": 11235
+  },
+  {
+    "path": "outputs/booksdotnet-v3-mci-alignment/index.html",
+    "sha256": "d1d52b808c7b317afb3eb1df117c9682fef74e40ddc079b493a4dee329935820",
+    "bytes": 982
+  },
+  {
+    "path": "outputs/booksdotnet-v3-mci-alignment/package-lock.json",
+    "sha256": "d69df8ea5dfae7bd006036f5a753ad5a84a91ba4aa3b1d9e61aafdeca5273703",
+    "bytes": 99012
+  },
+  {
+    "path": "outputs/booksdotnet-v3-mci-alignment/package.json",
+    "sha256": "5efae52bb07573c7a124a4c4135ec41743b8cc40e5815ccf86be99a991d886fc",
+    "bytes": 1067
+  },
+  {
+    "path": "outputs/booksdotnet-v3-mci-alignment/public/booksdotnet-logo.png",
+    "sha256": "68a3f13b59f5425d54d3b7c8a202f3bb13b9c3f88a48f0233ae727652c666a2a",
+    "bytes": 110767
+  },
+  {
+    "path": "outputs/booksdotnet-v3-mci-alignment/public/figma-capture.js",
+    "sha256": "6250837866c12d793eee0078c1b20569b156b3b8e3465274a2ca235ed47e7b5b",
+    "bytes": 388127
+  },
+  {
+    "path": "outputs/booksdotnet-v3-mci-alignment/README.md",
+    "sha256": "11903c99f7d2e737cbaa3f01f9de8bc41f1467993b7e21ca8c53e221e6141c4e",
+    "bytes": 32333
+  },
+  {
+    "path": "outputs/booksdotnet-v3-mci-alignment/scripts/build-figma-library.mjs",
+    "sha256": "a1c6af31a97ebf844253b3a1c398d60364487669015e3e150789d09456b5cb2e",
+    "bytes": 2814
+  },
+  {
+    "path": "outputs/booksdotnet-v3-mci-alignment/scripts/figma-library-runtime.js",
+    "sha256": "048d13448758602044c793888bdb884d22eb33a33b4a0f9eb02cf6fa5a0f8e45",
+    "bytes": 23499
+  },
+  {
+    "path": "outputs/booksdotnet-v3-mci-alignment/src/account-fields.js",
+    "sha256": "f5261436e816158a7163d0dd0744bba25546cfbae08c80722f26033787e07546",
+    "bytes": 209
+  },
+  {
+    "path": "outputs/booksdotnet-v3-mci-alignment/src/account-hierarchy.js",
+    "sha256": "2bf480b38c7a23fc4d1db0468a70f169e7fa6ba2241193003e7f177d7ec5c3be",
+    "bytes": 12138
+  },
+  {
+    "path": "outputs/booksdotnet-v3-mci-alignment/src/account-hierarchy.test.js",
+    "sha256": "9ac46588fd812ffe6ca51e9bb64765f8e438e024c673c1876e2a3de8c29f8833",
+    "bytes": 18988
+  },
+  {
+    "path": "outputs/booksdotnet-v3-mci-alignment/src/accounting.js",
+    "sha256": "9a4ea24efc3665aa06689e00a71baf702e1f63b17a2fd5e08a9ae434dbe20dbb",
+    "bytes": 30989
+  },
+  {
+    "path": "outputs/booksdotnet-v3-mci-alignment/src/accounting.test.js",
+    "sha256": "1879e07c20726c592192dd162542f9f5e02f87bba1ca068c11a74a8a7bf25d12",
+    "bytes": 8315
+  },
+  {
+    "path": "outputs/booksdotnet-v3-mci-alignment/src/App.jsx",
+    "sha256": "fe7e9e519a5aa1c64d932d2f0ba5a3ba7acbc79b95102956e0d11eb985a282a5",
+    "bytes": 30656
+  },
+  {
+    "path": "outputs/booksdotnet-v3-mci-alignment/src/data.js",
+    "sha256": "d1ec458b6f783db48b337880288cfe965ad027149829c15bab0d52a6fca55884",
+    "bytes": 7262
+  },
+  {
+    "path": "outputs/booksdotnet-v3-mci-alignment/src/data.test.js",
+    "sha256": "9c0a5f49d57d9a17024ba8ab945b313bd37209e046fc60918cd4026b3da4225a",
+    "bytes": 1758
+  },
+  {
+    "path": "outputs/booksdotnet-v3-mci-alignment/src/design-system/Button.jsx",
+    "sha256": "1dead0a086865a7fb7945095130e730d0732485dad252b2b0fae3a14c4ca7362",
+    "bytes": 157
+  },
+  {
+    "path": "outputs/booksdotnet-v3-mci-alignment/src/design-system/catalog.js",
+    "sha256": "4c4398169b75297d890bbbc0f2a10e55c48cc536292265bec5a04fd1a78c4474",
+    "bytes": 37598
+  },
+  {
+    "path": "outputs/booksdotnet-v3-mci-alignment/src/design-system/catalog.test.js",
+    "sha256": "8d58e0c2344220b5763296fbc7455e84a02e895a63b181a50e986c94f5b89faf",
+    "bytes": 2238
+  },
+  {
+    "path": "outputs/booksdotnet-v3-mci-alignment/src/design-system/foundations.js",
+    "sha256": "f8e74d0234588a92929c827c87898c5e15d464557145376e5e1ced634a22350f",
+    "bytes": 3501
+  },
+  {
+    "path": "outputs/booksdotnet-v3-mci-alignment/src/design-system/foundations.test.js",
+    "sha256": "1413ec1e07dd394ea97bc81952112ece4b4423b3ffef74086186f8587f5daa4f",
+    "bytes": 1598
+  },
+  {
+    "path": "outputs/booksdotnet-v3-mci-alignment/src/design-system/pagination.js",
+    "sha256": "f3c0c7d10913585ec23a9f1595a3b07a98e7e6aeef54a7231c9d49a75e283f0c",
+    "bytes": 775
+  },
+  {
+    "path": "outputs/booksdotnet-v3-mci-alignment/src/design-system/Pagination.jsx",
+    "sha256": "074e547a7964422e7eeb0e207828f84c142d9e2e309551e2b94d644828a6c750",
+    "bytes": 1163
+  },
+  {
+    "path": "outputs/booksdotnet-v3-mci-alignment/src/design-system/pagination.test.js",
+    "sha256": "b64abfbf474ca3621b270d696f1e516145005a297c33cfd334d881c24f15c564",
+    "bytes": 665
+  },
+  {
+    "path": "outputs/booksdotnet-v3-mci-alignment/src/design-system/showcase.css",
+    "sha256": "5b653f0179fd7790e2655b7a54101b83fb679bbaec96aa36d0eaf3ab43adc217",
+    "bytes": 6421
+  },
+  {
+    "path": "outputs/booksdotnet-v3-mci-alignment/src/design-system/Showcase.jsx",
+    "sha256": "eacd76b17d8edaaef46f63f474ff0e65f0dda9b0e347ce9a0d415355fa653ca6",
+    "bytes": 9778
+  },
+  {
+    "path": "outputs/booksdotnet-v3-mci-alignment/src/design-system/tokens.css",
+    "sha256": "da252aecef8d99c40af814340d1692424fd2188779e19dba7c9676c690666bb5",
+    "bytes": 1818
+  },
+  {
+    "path": "outputs/booksdotnet-v3-mci-alignment/src/design-system/tokens.js",
+    "sha256": "fc00e186f7b75bedc5aae8499c82f789eb96088f45641d533e08ab8a34684a2b",
+    "bytes": 1699
+  },
+  {
+    "path": "outputs/booksdotnet-v3-mci-alignment/src/main.jsx",
+    "sha256": "c12ef3da77dd399a8b74214d92e048fb61bb53251912a9dd82af0748d67c286d",
+    "bytes": 387
+  },
+  {
+    "path": "outputs/booksdotnet-v3-mci-alignment/src/Modal.jsx",
+    "sha256": "fc14128073a7c0c02547f597bd691245db17f5e19e618f7cf6b6dc380bce1569",
+    "bytes": 865
+  },
+  {
+    "path": "outputs/booksdotnet-v3-mci-alignment/src/module-ui.jsx",
+    "sha256": "124af2c69b6e982308b0315ccea8fd112835130e90457974615aed004ee2c928",
+    "bytes": 7834
+  },
+  {
+    "path": "outputs/booksdotnet-v3-mci-alignment/src/ModuleForms.jsx",
+    "sha256": "f9cdd935f08d5382c6a4d54c3fe4e0b20b3fbbb7094a08dce74320cc676d0535",
+    "bytes": 14205
+  },
+  {
+    "path": "outputs/booksdotnet-v3-mci-alignment/src/modules.css",
+    "sha256": "82454203aadca285dc0a1d695b8a6466c99474b186ae4cf33efa728758e73f74",
+    "bytes": 12063
+  },
+  {
+    "path": "outputs/booksdotnet-v3-mci-alignment/src/Modules.jsx",
+    "sha256": "6634af6bd790604cecad8fb5ec3c3cd99dc5419ebab67d7797405a885f925ac1",
+    "bytes": 32106
+  },
+  {
+    "path": "outputs/booksdotnet-v3-mci-alignment/src/styles.css",
+    "sha256": "3745852feacbc2702c675b3895a1013bbcc675c1bf2c30f7d50cca676903ac7c",
+    "bytes": 28893
+  },
+  {
+    "path": "outputs/booksdotnet-v3-mci-alignment/src/useWorkspace.js",
+    "sha256": "6b2167d3ef175f6838430cd5245690dc498dc401137c289c1e364a1b744d7c83",
+    "bytes": 2141
+  },
+  {
+    "path": "outputs/booksdotnet-v3-mci-alignment/src/v3-initial-snapshot.json",
+    "sha256": "b55ab952410e7c30471f47cca09a97733b62ed7e2cff86984f9c82c150934faa",
+    "bytes": 111688
+  },
+  {
+    "path": "outputs/booksdotnet-v3-mci-alignment/src/versions/navigation.js",
+    "sha256": "6bc8833e60b1223acb5968a8358f6e6c6a8ede855d6b4a16ca022a0414cb150b",
+    "bytes": 4096
+  },
+  {
+    "path": "outputs/booksdotnet-v3-mci-alignment/src/versions/navigation.test.js",
+    "sha256": "260c42fba6e74add589a19fb4608c46908c68c74ec5295d35842d17cbaded498",
+    "bytes": 1919
+  },
+  {
+    "path": "outputs/booksdotnet-v3-mci-alignment/src/versions/v2/AccessContext.jsx",
+    "sha256": "3816b08eb1ffb7ea86ad6e396a812b3e65c8ebfbe0b7d26fcc9e69a04998a66f",
+    "bytes": 180
+  },
+  {
+    "path": "outputs/booksdotnet-v3-mci-alignment/src/versions/v2/account-hierarchy.css",
+    "sha256": "52df69687450de5af14732cdd7f68ac90014459fbe601d628480fd6dc509cf22",
+    "bytes": 4422
+  },
+  {
+    "path": "outputs/booksdotnet-v3-mci-alignment/src/versions/v2/accounting.js",
+    "sha256": "91944282218961101030f903a75f213858c83d6f7e5e4c3e373012ed085491f2",
+    "bytes": 13153
+  },
+  {
+    "path": "outputs/booksdotnet-v3-mci-alignment/src/versions/v2/accounting.test.js",
+    "sha256": "daf2d1119ce2c35cc8930ef3622e16d49463d86846ebeb3052d9b0461ea302b9",
+    "bytes": 9304
+  },
+  {
+    "path": "outputs/booksdotnet-v3-mci-alignment/src/versions/v2/AccountingDefaults.jsx",
+    "sha256": "dd95289ab247d4f01789f5a9e2e0389aaee790ab3c1f84f5e148cb9bbfb63449",
+    "bytes": 1940
+  },
+  {
+    "path": "outputs/booksdotnet-v3-mci-alignment/src/versions/v2/AccountingView.jsx",
+    "sha256": "e539debced01bb1d3f23a62aafad3a00019eb5b1bc7369abfd8ab63550bdde12",
+    "bytes": 2834
+  },
+  {
+    "path": "outputs/booksdotnet-v3-mci-alignment/src/versions/v2/AccountRecords.jsx",
+    "sha256": "50367c60a415297f581a1d4f303a32434051f4a48df2360035ddc9532095820c",
+    "bytes": 15406
+  },
+  {
+    "path": "outputs/booksdotnet-v3-mci-alignment/src/versions/v2/ar-ap-reference.js",
+    "sha256": "b4a3571ee55d1b485dd29cb4e54faaa0335678469a9cf897bebea8a0707c0a92",
+    "bytes": 6842
+  },
+  {
+    "path": "outputs/booksdotnet-v3-mci-alignment/src/versions/v2/bank-transaction.js",
+    "sha256": "22b13c3086ad2163f0b68654580136e32c79f1e970ecefa0e01250536f268a57",
+    "bytes": 6151
+  },
+  {
+    "path": "outputs/booksdotnet-v3-mci-alignment/src/versions/v2/BankAccounts.jsx",
+    "sha256": "409616fb292e0dfa7cb082ad2e02b015fe3a1248ff36cd933c779201093c4372",
+    "bytes": 8934
+  },
+  {
+    "path": "outputs/booksdotnet-v3-mci-alignment/src/versions/v2/banking.js",
+    "sha256": "b413189ce755cee14604f39ba8eea93e6f214fef7d0aeda85f7e198237fe60b4",
+    "bytes": 18781
+  },
+  {
+    "path": "outputs/booksdotnet-v3-mci-alignment/src/versions/v2/banking.test.js",
+    "sha256": "fe39a0d7392e78776a909ad2d5cb64ad5334390d7d842ce5bb57f1f06eb2f350",
+    "bytes": 20677
+  },
+  {
+    "path": "outputs/booksdotnet-v3-mci-alignment/src/versions/v2/BankReconciliation.jsx",
+    "sha256": "923160ef825a0469e007e33d78b9bdaad98b0fff83e79087507281860a442735",
+    "bytes": 15719
+  },
+  {
+    "path": "outputs/booksdotnet-v3-mci-alignment/src/versions/v2/BankTransactionForm.jsx",
+    "sha256": "362d35839be2d67b04025afc6b5f1abc1f3d939169a4bad1bfa09913dfcdf594",
+    "bytes": 8834
+  },
+  {
+    "path": "outputs/booksdotnet-v3-mci-alignment/src/versions/v2/BankTransactions.jsx",
+    "sha256": "e18740a43b6de0f5d6655eaf3c4403e0879e00a48029f4650ffbc9a27bd67d24",
+    "bytes": 9590
+  },
+  {
+    "path": "outputs/booksdotnet-v3-mci-alignment/src/versions/v2/configuration-data.js",
+    "sha256": "af57a081277e144f410366fec729f5985b74b011177ed29ba2829752b397b4f1",
+    "bytes": 3372
+  },
+  {
+    "path": "outputs/booksdotnet-v3-mci-alignment/src/versions/v2/configuration.js",
+    "sha256": "34fd97afa64897c073053c824450eb1ddd035f5f4d6e9c1ffa73f0a041284831",
+    "bytes": 6504
+  },
+  {
+    "path": "outputs/booksdotnet-v3-mci-alignment/src/versions/v2/Configuration.jsx",
+    "sha256": "a1c1510f3b802402b7e76b5de3145a650ec987042bd0f726336ea725b51527e1",
+    "bytes": 7470
+  },
+  {
+    "path": "outputs/booksdotnet-v3-mci-alignment/src/versions/v2/configuration.test.js",
+    "sha256": "680c2743183286a6f8753794de418aa26fb31c33826c99c550547478568df8ca",
+    "bytes": 8169
+  },
+  {
+    "path": "outputs/booksdotnet-v3-mci-alignment/src/versions/v2/credit-labels.js",
+    "sha256": "0409f2d47bb43f56a3a48e8d25c913d499c7b7e66ec3733a0047429b472f08b6",
+    "bytes": 367
+  },
+  {
+    "path": "outputs/booksdotnet-v3-mci-alignment/src/versions/v2/credit-ui.test.js",
+    "sha256": "7991f8a2924d080abc012ffcea97718cf2e29aa19ef9b262d5ef48496f545058",
+    "bytes": 27856
+  },
+  {
+    "path": "outputs/booksdotnet-v3-mci-alignment/src/versions/v2/DocumentForm.jsx",
+    "sha256": "eefe28042c0c7d5d43ff1d67fc46fd294104f513e8e65a24a9932809a3065b66",
+    "bytes": 12419
+  },
+  {
+    "path": "outputs/booksdotnet-v3-mci-alignment/src/versions/v2/equity.js",
+    "sha256": "00c50985461a130381b274b58b86dedf7f4680f5eb5768d523c054e2c8bc7b59",
+    "bytes": 1245
+  },
+  {
+    "path": "outputs/booksdotnet-v3-mci-alignment/src/versions/v2/equity.test.js",
+    "sha256": "c3e2a12a46302945bd532983b79520d54bbaad651aa94a5ee6c6f36306c791b5",
+    "bytes": 3194
+  },
+  {
+    "path": "outputs/booksdotnet-v3-mci-alignment/src/versions/v2/FinancialStatements.jsx",
+    "sha256": "7837291298b4563c2d0aa8894eed3c0901b04e526d06bde718e5c41d540cd5e3",
+    "bytes": 7572
+  },
+  {
+    "path": "outputs/booksdotnet-v3-mci-alignment/src/versions/v2/FormLayout.jsx",
+    "sha256": "50f3199651865bdb310c77a3e4c3913dcba7a85bb819959c519f385492a41882",
+    "bytes": 540
+  },
+  {
+    "path": "outputs/booksdotnet-v3-mci-alignment/src/versions/v2/Forms.jsx",
+    "sha256": "9fde6cb7f1da8387235e009ff5c4a918712c479bbcdb1aa4543c3eb4968cf1ce",
+    "bytes": 8960
+  },
+  {
+    "path": "outputs/booksdotnet-v3-mci-alignment/src/versions/v2/general-ledger.css",
+    "sha256": "c223c3700080c76ee911c89dfd425d29757cbdee13c55296e457683974a5b66d",
+    "bytes": 2677
+  },
+  {
+    "path": "outputs/booksdotnet-v3-mci-alignment/src/versions/v2/GeneralLedger.jsx",
+    "sha256": "355a04e4dbcc6994943f0982208f7cd63b82796769eb08c38df32f18c94863e2",
+    "bytes": 5742
+  },
+  {
+    "path": "outputs/booksdotnet-v3-mci-alignment/src/versions/v2/grouped-ledger.js",
+    "sha256": "25b4c098661b30aac16a69b9af406573c58d983b63b60365a8158e13966669b5",
+    "bytes": 1632
+  },
+  {
+    "path": "outputs/booksdotnet-v3-mci-alignment/src/versions/v2/grouped-ledger.test.js",
+    "sha256": "5099b383184cf4491f37dd4acd282e0b100189a0584d9cd85294a2571a36506f",
+    "bytes": 6808
+  },
+  {
+    "path": "outputs/booksdotnet-v3-mci-alignment/src/versions/v2/inventory-listing.css",
+    "sha256": "6a0aa3acb4d91d570e8966c710e199cd073c1edb70a2d213294f31df6576bc0f",
+    "bytes": 3663
+  },
+  {
+    "path": "outputs/booksdotnet-v3-mci-alignment/src/versions/v2/inventory-records.js",
+    "sha256": "804bfb37b66d09d77634af67c9d66dfb96089c8fd8cc42b741dce65b0995286b",
+    "bytes": 1439
+  },
+  {
+    "path": "outputs/booksdotnet-v3-mci-alignment/src/versions/v2/InventoryListing.jsx",
+    "sha256": "1c02192cd531f1915389384cb0b065ea694bd81ad6a17006ca18eac96261cd16",
+    "bytes": 5159
+  },
+  {
+    "path": "outputs/booksdotnet-v3-mci-alignment/src/versions/v2/JournalForm.jsx",
+    "sha256": "a5098a2cc84b5050946c23b622986810b0f3892e180cdb5a862f4a66ee34f0a9",
+    "bytes": 6414
+  },
+  {
+    "path": "outputs/booksdotnet-v3-mci-alignment/src/versions/v2/JournalRecords.jsx",
+    "sha256": "fa2b762248639fd35d72450e42737590126fc4c14ad1be5be34f37437896d951",
+    "bytes": 7286
+  },
+  {
+    "path": "outputs/booksdotnet-v3-mci-alignment/src/versions/v2/ListingActions.jsx",
+    "sha256": "f43f180b53c286963bff96c8acc76ac3e0d01e0d357533c5c7a9ee7d8c279871",
+    "bytes": 2138
+  },
+  {
+    "path": "outputs/booksdotnet-v3-mci-alignment/src/versions/v2/masterfile.js",
+    "sha256": "7268e6202e5ee004ba53511259ba82555b3111d78959f122aa1162bc823a6602",
+    "bytes": 17150
+  },
+  {
+    "path": "outputs/booksdotnet-v3-mci-alignment/src/versions/v2/Masterfile.jsx",
+    "sha256": "5d53d0079c8177c42b2a4ea0e7a66de92ba506de55d7d7dc1f2fee87bd67e36d",
+    "bytes": 22109
+  },
+  {
+    "path": "outputs/booksdotnet-v3-mci-alignment/src/versions/v2/masterfile.test.js",
+    "sha256": "49236b96f7a06e19d541cbc73462049706ecac32f447137fc7bd61ee25c9b5e6",
+    "bytes": 9426
+  },
+  {
+    "path": "outputs/booksdotnet-v3-mci-alignment/src/versions/v2/Notes.jsx",
+    "sha256": "6d5d8c6219b430ee86b064153a05d72beadda41432ad48a3490fc8785e6ed330",
+    "bytes": 12066
+  },
+  {
+    "path": "outputs/booksdotnet-v3-mci-alignment/src/versions/v2/page-descriptions.js",
+    "sha256": "88ea83cc64d5c39df13843f03fc7fe90e6bb6d6c95923178ebeeac29348c8429",
+    "bytes": 3267
+  },
+  {
+    "path": "outputs/booksdotnet-v3-mci-alignment/src/versions/v2/PaymentForm.jsx",
+    "sha256": "d67479664a79000aacd2afc904f5350a9f40e9364bfd726cb237f38ecf54acaf",
+    "bytes": 10283
+  },
+  {
+    "path": "outputs/booksdotnet-v3-mci-alignment/src/versions/v2/Payments.jsx",
+    "sha256": "ebbeb68cc53d9f41b37bfaded3bd3b97ea02bc0b89c3777a2b894c8d7dd9d672",
+    "bytes": 6727
+  },
+  {
+    "path": "outputs/booksdotnet-v3-mci-alignment/src/versions/v2/permissions.js",
+    "sha256": "fc1e3d39eeea38ed84a61d96b777b51f9f6570d01823a5f4cbbf10bd92e09068",
+    "bytes": 16338
+  },
+  {
+    "path": "outputs/booksdotnet-v3-mci-alignment/src/versions/v2/permissions.test.js",
+    "sha256": "211a60b8fa735f656eabfc7eda0a40129f8aed46e6ee37d11823629cca4213ed",
+    "bytes": 7614
+  },
+  {
+    "path": "outputs/booksdotnet-v3-mci-alignment/src/versions/v2/posting.js",
+    "sha256": "ddedc699f31173c541e4b916c5e1959c221884574e109c09f4cc60adb576f339",
+    "bytes": 2016
+  },
+  {
+    "path": "outputs/booksdotnet-v3-mci-alignment/src/versions/v2/RecordPage.jsx",
+    "sha256": "4fd619098fe3079fe61ae02b09eb0f8a40f237adbdb07ea340d437f28f65e06b",
+    "bytes": 7635
+  },
+  {
+    "path": "outputs/booksdotnet-v3-mci-alignment/src/versions/v2/RefLookup.jsx",
+    "sha256": "3acbbffbe982f620e484da7ee514260ecf19c8c9072ec0bf19fc98662fb0fcd1",
+    "bytes": 1188
+  },
+  {
+    "path": "outputs/booksdotnet-v3-mci-alignment/src/versions/v2/resizable-textarea.css",
+    "sha256": "c33fc0c19852905897286eee72fd32ed698ccda9074e33809fef697626d54b62",
+    "bytes": 555
+  },
+  {
+    "path": "outputs/booksdotnet-v3-mci-alignment/src/versions/v2/ResizableTextarea.jsx",
+    "sha256": "8c83a952092c2cfa8f8d9b5d238c5dd32e373be73b5563d65d4c65be62271e60",
+    "bytes": 191
+  },
+  {
+    "path": "outputs/booksdotnet-v3-mci-alignment/src/versions/v2/Screens.jsx",
+    "sha256": "2dea7da1bf270303185b7acb96ecba7d321f07b333b93a3216a36378184f8085",
+    "bytes": 23430
+  },
+  {
+    "path": "outputs/booksdotnet-v3-mci-alignment/src/versions/v2/search.js",
+    "sha256": "66e1407cc255dce6c809a3bf10e9067b353d391ea3cccc8c9771f626a33d087c",
+    "bytes": 2265
+  },
+  {
+    "path": "outputs/booksdotnet-v3-mci-alignment/src/versions/v2/SearchableSelect.jsx",
+    "sha256": "1d2b56c96d33841b92dca497a28f9bd83f6be2d11814789b61798882595fdc6c",
+    "bytes": 6289
+  },
+  {
+    "path": "outputs/booksdotnet-v3-mci-alignment/src/versions/v2/shell.css",
+    "sha256": "27d5d75fd0bfb44fed31b29e4db3c377b70fd9945151622219ae20f0268e42ba",
+    "bytes": 33269
+  },
+  {
+    "path": "outputs/booksdotnet-v3-mci-alignment/src/versions/v2/Shell.jsx",
+    "sha256": "1f812bd54d016f7678a39c4bdddd07b9d3dce1a6121f3b9d77db04c334b99527",
+    "bytes": 20170
+  },
+  {
+    "path": "outputs/booksdotnet-v3-mci-alignment/src/versions/v2/Sidebar.jsx",
+    "sha256": "a09d746c616e47b54a43e65203a5892dbf684c2386c80044f71194421def9992",
+    "bytes": 3225
+  },
+  {
+    "path": "outputs/booksdotnet-v3-mci-alignment/src/versions/v2/source-listing.js",
+    "sha256": "98693a990c39daf88082110b6a09f01971cbcfe5ee8292bac368f0c2c8bd5060",
+    "bytes": 4449
+  },
+  {
+    "path": "outputs/booksdotnet-v3-mci-alignment/src/versions/v2/source-record-demo.js",
+    "sha256": "8845d58300cf0b7ca6276b9c52c0edbbec1dde8dacc300da70107b5e975d36e7",
+    "bytes": 10788
+  },
+  {
+    "path": "outputs/booksdotnet-v3-mci-alignment/src/versions/v2/source-record-exports.js",
+    "sha256": "759e891c1280b627df3ad3bf31f3f54795a0272452aebc9f8e15944634238a90",
+    "bytes": 9405
+  },
+  {
+    "path": "outputs/booksdotnet-v3-mci-alignment/src/versions/v2/source-record-layout.js",
+    "sha256": "6314c807fa6670edbedb1738a1db315b976cbece8bb65d22dd9ff3f59db995c7",
+    "bytes": 6938
+  },
+  {
+    "path": "outputs/booksdotnet-v3-mci-alignment/src/versions/v2/source-record-model.js",
+    "sha256": "41dadc41e10728d53ba02a53cd694e66dda7cc7f8584e94eac53625807750853",
+    "bytes": 13022
+  },
+  {
+    "path": "outputs/booksdotnet-v3-mci-alignment/src/versions/v2/source-records.css",
+    "sha256": "acdd1fccbca66b3b656848f8b20245e413b51f1034707315ed67c9cfd610cc3e",
+    "bytes": 18877
+  },
+  {
+    "path": "outputs/booksdotnet-v3-mci-alignment/src/versions/v2/SourceRecordDetails.jsx",
+    "sha256": "166a36774039d968fcc61f8614716d8164fdbbce408d97d35c00cf9a7edac6ec",
+    "bytes": 19267
+  },
+  {
+    "path": "outputs/booksdotnet-v3-mci-alignment/src/versions/v2/statements.js",
+    "sha256": "292ae9a679f67fd8beaff43a8cd71001f75571f6afd535a3f343dffcb2784e31",
+    "bytes": 13180
+  },
+  {
+    "path": "outputs/booksdotnet-v3-mci-alignment/src/versions/v2/statements.test.js",
+    "sha256": "ef3254e9476aff43bbe27d32973d83acaaf3aaa28b3c40836d15468e60556e07",
+    "bytes": 7613
+  },
+  {
+    "path": "outputs/booksdotnet-v3-mci-alignment/src/versions/v2/TransactionFields.jsx",
+    "sha256": "c6086eb9484dbba6246fa31e93c142fd5032e14287d69561741e2eae79d0663e",
+    "bytes": 2055
+  },
+  {
+    "path": "outputs/booksdotnet-v3-mci-alignment/src/versions/v2/transactions.js",
+    "sha256": "d05e867bea8e4cad8c5ecae11634634d130abe9ec494fcfdc31ff94e696aaaca",
+    "bytes": 17796
+  },
+  {
+    "path": "outputs/booksdotnet-v3-mci-alignment/src/versions/v2/transactions.test.js",
+    "sha256": "185dd03fb684804c315396c21337f518a364d5497bce8390941f6f8163611edb",
+    "bytes": 11147
+  },
+  {
+    "path": "outputs/booksdotnet-v3-mci-alignment/src/versions/v2/Users.jsx",
+    "sha256": "eff52c88e796503b7312f541779092ad437b34b29640cd619dfc11a98b732d02",
+    "bytes": 9860
+  },
+  {
+    "path": "outputs/booksdotnet-v3-mci-alignment/src/versions/v2/v2.css",
+    "sha256": "bc1505225d13d3cb0d73f73e6c9f66813c2bcef7cbff062debb9a03084aab3d4",
+    "bytes": 5809
+  },
+  {
+    "path": "outputs/booksdotnet-v3-mci-alignment/src/versions/v3-banking-samples.js",
+    "sha256": "991da84c4d70b79bf21ce586f9c23e6c35b51042e12b21c96fe70f9b1b900b86",
+    "bytes": 5577
+  },
+  {
+    "path": "outputs/booksdotnet-v3-mci-alignment/src/versions/v3-banking.test.js",
+    "sha256": "e4392b47e1ddfe674d9f213bf02e33d345bb3a4367c7d13330f5464ab6e46f22",
+    "bytes": 8341
+  },
+  {
+    "path": "outputs/booksdotnet-v3-mci-alignment/src/versions/v3-labels.js",
+    "sha256": "d60533045d0a2a11ec7ff92508aa4b028beca36f506ac164c2e42a29f7076404",
+    "bytes": 744
+  },
+  {
+    "path": "outputs/booksdotnet-v3-mci-alignment/src/versions/v3-policy.js",
+    "sha256": "698315815f4e2e1cee94fe8f61be95f5adecca082abcda7e52ea9a4ddfb86e34",
+    "bytes": 1450
+  },
+  {
+    "path": "outputs/booksdotnet-v3-mci-alignment/src/versions/v3.test.js",
+    "sha256": "ca8e7d767861a6718304b66bfddda41e8d7ebeac78b756729efe22b507cebd3b",
+    "bytes": 44430
+  },
+  {
+    "path": "outputs/booksdotnet-v3-mci-alignment/v3-build.txt",
+    "sha256": "8388055dded810f8d8f6667027a32394dcfd08236ee61527625450c73cde67f9",
+    "bytes": 2104
+  },
+  {
+    "path": "outputs/booksdotnet-v3-mci-alignment/v3-verification.txt",
+    "sha256": "2ae4b215741f5124da92f68e639f6cc5abc916b672afe60f10eaa63d54491858",
+    "bytes": 13366
+  },
+  {
+    "path": "outputs/booksdotnet-v3-mci-alignment/vite.config.js",
+    "sha256": "94114b2647fcf880ef6ced21642e1aa6b57f7cfdb3b2105a482077fa0daf790b",
+    "bytes": 353
+  },
+  {
+    "path": "outputs/booksdotnet-v3-original-source-manifest.json",
+    "sha256": "12200ef15cc547a2c76a8f67cc4d543fb8506c42740c44ce465a503e448132b2",
+    "bytes": 9869
+  },
+  {
+    "path": "outputs/booksdotnet-Product-Requirements-Document.md",
+    "sha256": "bb24e3a6f894be549512a42ecb734c68348f523a0439275a4b98504b36a4de2c",
+    "bytes": 54345
+  },
+  {
+    "path": "tmp/v3-layout-protected-files.json",
+    "sha256": "42c8b480dff45a5aa55c1512ea1bf80bd1f96376ceb3f499dc7a30911d7c35f3",
+    "bytes": 1125
+  }
+]

@@ -1,0 +1,46 @@
+.ui-v2 .v3-account-tree-code {display:flex;align-items:center;gap:6px;white-space:nowrap;font-weight:400;}
+.ui-v2 .v3-account-tree-code>.icon-button {width:28px;min-width:28px;height:28px;padding:4px;}
+.ui-v2 .v3-account-tree-spacer {width:28px;flex-shrink:0;}
+.ui-v2 .module-table:has(table[aria-label="Chart of accounts"]) .v3-parent-account>td {font-weight:400;}
+.ui-v2 .module-table:has(table[aria-label="Chart of accounts"]) .v3-parent-account .v3-account-tree-code {font-weight:600;}
+.ui-v2 .module-table:has(table[aria-label="Chart of accounts"]) .v3-parent-account:has(button[aria-expanded=true])>td {background:#F4F8FC;}
+.ui-v2 .module-table:has(table[aria-label="Chart of accounts"]) table {width:100%;min-width:900px;table-layout:fixed;}
+.ui-v2 .module-table:has(table[aria-label="Chart of accounts"]) th:nth-child(1) {width:30%;}
+.ui-v2 .module-table:has(table[aria-label="Chart of accounts"]) th:nth-child(2) {width:12%;}
+.ui-v2 .module-table:has(table[aria-label="Chart of accounts"]) th:nth-child(3) {width:12%;}
+.ui-v2 .module-table:has(table[aria-label="Chart of accounts"]) th:nth-child(4) {width:19%;}
+.ui-v2 .module-table:has(table[aria-label="Chart of accounts"]) th:nth-child(5) {width:17%;}
+.ui-v2 .module-table:has(table[aria-label="Chart of accounts"]) th:nth-child(6) {width:10%;}
+.ui-v2 .module-table:has(table[aria-label="Chart of accounts"]) td,.ui-v2 .module-table:has(table[aria-label="Chart of accounts"]) th {padding:12px 16px;height:50px;}
+.ui-v2 .module-table:has(table[aria-label="Chart of accounts"]) .v3-account-tree-code {white-space:normal;}
+.ui-v2 .v3-hierarchy-context>td {background:#F8FAFC;}
+.ui-v2 .v2-record-page:has(.v3-account-form) {width:88%;max-width:1360px;margin-inline:auto;}
+.ui-v2 .v2-record-content>form.v2-config-form.v3-account-form {width:100%;max-width:none;}
+.ui-v2 .v3-account-form>fieldset.v2-form-section.v2-master-fields {padding:28px;border:1px solid #E2E8F0;border-radius:10px;background:#fff;margin:0;}
+.ui-v2 .v3-account-form>fieldset.v2-form-section.v2-master-fields+fieldset.v2-form-section.v2-master-fields {margin-top:24px;}
+.ui-v2 .v3-account-form .v2-field-grid {gap:24px;}
+.ui-v2 .v3-account-relationship {display:grid;gap:20px;margin-top:24px;}
+.ui-v2 .v3-parent-field {display:grid;gap:8px;}
+.ui-v2 .v3-account-label {display:flex;align-items:center;gap:8px;color:#334155;font-size:12px;font-weight:500;}
+.ui-v2 .v3-account-description {margin-top:24px;}
+.ui-v2 .v3-account-description>label {grid-column:1/-1;}
+.ui-v2 .v3-account-form .field-help {display:flex;align-items:center;gap:8px;margin:16px 0 0;color:#64748B;font-size:12px;}
+.ui-v2 .v3-account-section-heading {display:flex;align-items:center;gap:8px;margin-bottom:24px;}
+.ui-v2 .v3-account-form .v3-account-section-heading h2 {margin:0;}
+.ui-v2 .v3-account-help {position:relative;display:inline-flex;font-size:12px;font-weight:400;}
+.ui-v2 .v3-account-help>summary {list-style:none;display:flex;align-items:center;justify-content:center;min-width:24px;min-height:24px;color:#64748B;cursor:pointer;border-radius:4px;}
+.ui-v2 .v3-account-help>summary::-webkit-details-marker {display:none;}
+.ui-v2 .v3-account-help>summary:focus-visible {outline:2px solid #559CDA;outline-offset:2px;}
+.ui-v2 .v3-account-help>div {position:absolute;top:calc(100% + 8px);left:0;z-index:20;width:280px;max-width:calc(100vw - 64px);padding:14px 16px;border:1px solid #E2E8F0;border-radius:8px;background:white;color:#475569;box-shadow:0 6px 20px #0F172A14;line-height:1.6;}
+.ui-v2 .v3-related-accounts {margin:24px 0 0;padding:28px;}
+.ui-v2 .v3-hierarchy-notice {font-size:12px;color:#64748B;margin:16px 0;line-height:1.6;}
+.ui-v2 .v3-hierarchy-notice p {margin:8px 0;}
+.ui-v2 .v3-hierarchy-notice summary {cursor:pointer;color:#64748B;}
+@media(max-width:1000px){.ui-v2 .v2-record-page:has(.v3-account-form){width:100%;}}
+@media(max-width:750px){.ui-v2 .v3-account-form .v2-field-grid{grid-template-columns:1fr;gap:20px;}.ui-v2 .v3-account-form>fieldset.v2-form-section.v2-master-fields,.ui-v2 .v3-related-accounts{padding:20px;}}
+
+.ui-v2 .v3-account-label,.ui-v2 .v3-account-section-heading,.ui-v2 .v3-account-form .field-help {position:relative;}
+@media(max-width:750px){.ui-v2 .v3-account-help {position:static;}}
+
+.ui-v2 .v3-account-relationship .v3-account-label {min-height:24px;}
+.ui-v2 .v3-account-form .v3-subsidiary-field {display:grid;gap:8px;}

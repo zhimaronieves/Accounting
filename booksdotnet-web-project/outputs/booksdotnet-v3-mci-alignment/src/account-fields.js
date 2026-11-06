@@ -1,0 +1,1 @@
+export const SUBSIDIARY_TYPES = ['None','Supplier','Banks','Employee','Customer','Warehouse','Brand','Petty Cash Fund','Cost Center','Department','PCF Custodian','Inventory','Bank Accounts','Business Unit'];

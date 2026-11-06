@@ -1,0 +1,60 @@
+import SourceRecordDetails from './SourceRecordDetails.jsx';
+import { FormGrid } from './FormLayout.jsx';
+import { ReadOnlyFields, TransactionInput, TransactionTextarea, TransactionSelect as SearchableSelect } from './TransactionFields.jsx';
+import { Modal as ConfirmationModal } from '../../Modal.jsx';
+import { useListState } from './RecordPage.jsx';
+import { useState, useRef } from 'react';
+import { Plus } from 'lucide-react';
+import { RecordModal as Modal, RecordActions } from './RecordPage.jsx';
+import { Button } from '../../design-system/Button.jsx';
+import { Heading, DataTable, ErrorText, Badge, peso } from '../../module-ui.jsx';
+import { TODAY } from '../../data.js';
+import { cents, outstanding } from '../../accounting.js';
+import { partiesFor, documentsFor } from './accounting.js';
+import { allNotes } from './transactions.js';
+import { creditName, adjustmentName, formalNoteType } from './credit-labels.js';
+import { usePageAccess } from './AccessContext.jsx';
+
+const direction = (kind, type) => `${kind === 'bill' ? 'Supplier document received: ' : 'Customer document issued: '}${type === 'Credit Note' ? 'decreases' : 'increases'} ${kind === 'bill' ? 'the payable' : 'the receivable'}.`;
+export default function Notes({ state, kind, range, commit, notify, onNavigate, intent }) {
+  const access = usePageAccess(), name = creditName(kind), pageTitle = `${name}s`;
+  const [status, setStatus] = useListState('status', 'All statuses');
+  const [dialog, setDialog] = useState(intent?.create && access('create') ? { type: 'new', docId: intent.documentId, noteType: intent.noteType === 'Debit Note' ? 'Debit Note' : 'Credit Note' } : intent?.noteId ? { type: allNotes(state,kind).find(n=>n.id===intent.noteId)?.status === 'Draft' && access('edit') ? 'edit' : 'view', id: intent.noteId } : null);
+  const [error, setError] = useState(''), [reversing, setReversing] = useState(false);
+  const notes = allNotes(state, kind), selected = notes.find(n => n.id === dialog?.id);
+  const close = () => { setDialog(null); setError(''); setReversing(false); };
+  const done = message => { close(); notify(message); };
+  const rows = notes.filter(n => n.type === 'Credit Note' && n.date >= range.start && n.date <= range.end && (status === 'All statuses' || n.status === status)).map(n => ({ ...n, search: `${n.id} ${name} ${n.partyName} ${n.docId} ${n.reason} ${n.demo ? 'demo' : ''}` }));
+  const docPage = kind === 'invoice' ? 'Customer Invoices' : 'Supplier Bills';
+  const selectedName = selected && adjustmentName(kind, selected.type);
+  return <>
+    <Heading title={pageTitle} description={`${pageTitle} are linked to existing ${kind === 'invoice' ? 'customer invoices and reduce accounts receivable' : 'supplier bills and reduce accounts payable'} when posted. Additional charges remain available from the related ${kind === 'invoice' ? 'invoice' : 'bill'}.`}>{access('create')&&<Button className="primary" disabled={!access('create')} onClick={() => setDialog({ type: 'new', noteType: 'Credit Note' })}><Plus size={15}/>Create {name}</Button>}</Heading>
+    <DataTable onRowClick={n=>setDialog({type:n.status==='Draft'&&access('edit')?'edit':'view',id:n.id})} title={pageTitle} rows={rows} searchLabel={`Search ${pageTitle.toLowerCase()}`} filters={<select aria-label={`${name} status`} value={status} onChange={e => setStatus(e.target.value)}>{['All statuses', 'Posted', 'Reversed'].map(s => <option key={s}>{s}</option>)}</select>} filename={`${kind === 'invoice' ? 'customer' : 'supplier'}-credits.csv`} exportRows={n => [n.id, n.partyName, n.docId, n.date, n.amount / 100, n.status]} columns={[{ key: 'id', label: 'Credit number', render: n => <span className="record-id">{n.id}{n.demo && <small className="v2-demo-tag">Demo</small>}</span> }, { key: 'partyName', label: kind === 'invoice' ? 'Customer' : 'Supplier' }, { key: 'docId', label: kind === 'invoice' ? 'Related invoice' : 'Related bill' }, { key: 'date', label: 'Issue date' }, { key: 'amount', label: 'Amount', numeric: true, render: n => peso(n.amount) }, { key: 'status', label: 'Status', render: n => <Badge value={n.status}/> }]}/>
+    {['new', 'edit'].includes(dialog?.type) && <NoteForm state={state} kind={kind} original={selected} documentId={dialog.docId} documentType={dialog.noteType} commit={commit} onClose={close} onDone={(type, status) => done(`${adjustmentName(kind, type)} ${status === 'Posted' ? 'posted' : 'draft saved'} in the shared accounting workspace.`)}/>}
+    {dialog?.type === 'view' && selected && <NoteForm state={state} kind={kind} original={selected} viewOnly commit={commit} onClose={close} actions={<><Button onClick={close}>Close</Button>{selected.status === 'Draft' && access('edit') && <Button onClick={() => setDialog({ type: 'edit', id: selected.id })}>Edit / post draft</Button>}{selected.status === 'Posted' && !selected.legacy && access('reverse') && access('post') && <Button onClick={() => setReversing(true)}>{`Reverse ${selectedName}`}</Button>}</>}><section className="v2-form-section"><h3>Activity history</h3>{(selected.history || [{ date: selected.date, action: 'Legacy credit posted' }]).map((h, i) => <p key={i}>{h.date} · {h.action}{h.entryId ? ` · ${h.entryId}` : ''}</p>)}{selected.entryId && <p>Posted journal: {selected.entryId}</p>}{selected.reversalEntryId && <p>Reversal journal: {selected.reversalEntryId}</p>}
+      <p className="field-help">Posted documents are immutable. Reversals create separate offsetting entries. Credits are limited to the unpaid balance; refunds and cash settlements are separate transactions. This preview does not issue BIR-authorized documents or file tax returns.</p>
+      <button type="button" className="record-link" onClick={()=>onNavigate(docPage,{documentId:selected.docId})}>View related {kind==='invoice'?'invoice':'bill'} · {selected.docId}</button><ErrorText error={error}/></section></NoteForm>}
+    {reversing && selected && <ConfirmationModal title={`Reverse ${selectedName}?`} onClose={() => setReversing(false)}><div className="modal-body"><p>Confirm reversal dated {TODAY}. The original {selectedName.toLowerCase()} and its posting remain in history.</p><ErrorText error={error}/></div><div className="modal-footer"><Button onClick={() => setReversing(false)}>Cancel</Button><Button className="danger-button" onClick={() => { const result=commit({type:'v2/reverseNote',kind,id:selected.id,date:TODAY}); if(result.ok) done(`${selectedName} reversed. The original posting is retained.`); else setError(result.error); }}>Confirm Reversal</Button></div></ConfirmationModal>}
+  </>;
+}
+
+function EditableNoteForm({ state, kind, original, documentId, documentType = 'Credit Note', commit, onClose, onDone, viewOnly=false, actions, children }) {
+  const busy = useRef(false), access = usePageAccess(), readOnly=viewOnly || Boolean(original && original.status!=='Draft') || !access(original?'edit':'create');
+  const parties = partiesFor(state, kind).filter(p => p.active), docs = documentsFor(state, kind).filter(d => !['Draft', 'Void'].includes(d.status));
+  const source = docs.find(d => d.id === (original?.docId || documentId)) || docs.find(d => parties.some(p => p.id === d.partyId));
+  const [form, setForm] = useState(original || { partyId: source?.partyId || parties[0]?.id || '', docId: source?.id || '', type: documentType, date: TODAY, reason: '', requestId: crypto.randomUUID() });
+  const [base, setBase] = useState(original ? ((original.amount - (original.tax || 0)) / 100).toFixed(2) : ''), [tax, setTax] = useState(original ? ((original.tax || 0) / 100).toFixed(2) : '0.00'), [error, setError] = useState('');
+  const name = adjustmentName(kind, form.type), set = (key, value) => setForm({ ...form, [key]: value }), eligible = docs.filter(d => d.partyId === form.partyId);
+  let total = 0; try { total = cents(base || '0') + cents(tax || '0'); } catch {}
+  return <ReadOnlyFields.Provider value={readOnly}><Modal dirty={readOnly?false:undefined} readOnlyMessage={readOnly && original && original.status!=='Draft'?'This transaction has been posted and can no longer be edited.':undefined} status={<Badge value={original?.status||'Draft'}/>} mode={readOnly?'view':original?'edit':'create'} recordId={original?.id} noteType={form.type} sourceId={original?.docId || documentId} title={original ? original.id : `Create ${name}`}  onClose={onClose} wide><form onSubmit={e => { e.preventDefault(); if (readOnly || busy.current) return; busy.current = true; try { const status = e.nativeEvent.submitter?.value === 'Posted' ? 'Posted' : 'Draft'; const result = commit({ type: 'v2/note', kind, note: { ...form, tax: cents(tax || '0'), amount: cents(base || '0') + cents(tax || '0'), status } }); if (!result.ok) throw new Error(result.error); onDone(form.type, status); } catch (err) { busy.current = false; setError(err.message); } }}>
+    <div className="modal-body module-form"><p className="field-help"><strong>{formalNoteType(kind, form.type)}</strong> · {direction(kind, form.type)}</p>
+      <div className="form-grid"><label>{kind === 'invoice' ? 'Customer' : 'Supplier'}<SearchableSelect displayValue={readOnly?original?.partyName:undefined} aria-label={`${name} party`} required value={form.partyId} onChange={e => setForm({ ...form, partyId: e.target.value, docId: docs.find(d => d.partyId === e.target.value)?.id || '' })}>{parties.map(p => <option key={p.id} value={p.id}>{p.name}</option>)}</SearchableSelect></label><label>Related {kind === 'invoice' ? 'invoice' : 'bill'}<SearchableSelect displayValue={readOnly?original?.docId:undefined} aria-label="Related source document" required value={form.docId} onChange={e => set('docId', e.target.value)}>{!eligible.length && <option value="">No posted documents</option>}{eligible.map(d => <option key={d.id} value={d.id}>{d.id} · Open {peso(outstanding(d))}</option>)}</SearchableSelect></label></div>
+      <FormGrid><label>Issue date<TransactionInput aria-label={`${name} issue date`} type="date" required max={TODAY} value={form.date} onInput={e => set('date', e.target.value)} onChange={e => set('date', e.target.value)}/></label></FormGrid>
+      <label>Reason for {name.toLowerCase()}<TransactionTextarea required maxLength={500} value={form.reason} onChange={e => set('reason', e.target.value)}/></label>
+      <div className="form-grid"><label>{name} before tax (₱)<TransactionInput displayValue={readOnly?peso(original.amount-(original.tax||0)):undefined} type="number" required min="0" step="0.01" value={base} onChange={e => setBase(e.target.value)}/></label><label>Applicable tax included (₱)<TransactionInput displayValue={readOnly?peso(original.tax||0):undefined} type="number" required min="0" step="0.01" value={tax} onChange={e => setTax(e.target.value)}/></label></div><div className="journal-totals"><span>Total {name.toLowerCase()}<strong>{peso(total)}</strong></span></div>
+      <p className="field-help">{kind === 'invoice' ? 'Customer tax adjustments use the existing output-tax payable account. A credit cannot exceed the source document’s recorded remaining tax.' : 'Supplier tax, if entered, is included in the expense adjustment. This demo does not recognize a separate recoverable input-VAT claim.'} Tax treatment and statutory document issuance require production review; this is a local accounting prototype.</p><ErrorText error={error}/>{children}
+    </div><RecordActions>{readOnly ? actions || <Button type="button" onClick={onClose}>Close</Button> : <><Button type="button" onClick={onClose}>Cancel</Button><Button type="submit" value="Draft">{original?'Save Changes':`Save ${name} Draft`}</Button>{access('post') && <Button type="submit" value="Posted" className="primary" disabled={!total}>Post {name}</Button>}</>}</RecordActions>
+  </form></Modal></ReadOnlyFields.Provider>;
+}
+
+export function NoteForm(props) {return props.viewOnly && props.original ? <SourceRecordDetails state={props.state} kind={props.kind} type="credit" record={props.original} onClose={props.onClose}/> : <EditableNoteForm {...props}/>;}
