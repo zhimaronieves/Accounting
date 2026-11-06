@@ -1,5 +1,5 @@
 import { displayPage } from '../v3-labels.js';
-import v3Seed from '../../v3-initial-snapshot.json';
+import v3Seed from '../../initial-seed.js';
 import { inventoryViewState } from './inventory-records.js';
 import { useEffect, useRef, useState } from 'react';
 import { Search, X, Bell, Settings, ChevronDown, ChevronRight, CircleUserRound, ShieldCheck, UsersRound, CalendarDays, Check } from 'lucide-react';

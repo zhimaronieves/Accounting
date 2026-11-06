@@ -1,5 +1,5 @@
 import { withBankingSamples } from './versions/v3-banking-samples.js';
-import v3Seed from './v3-initial-snapshot.json';
+import v3Seed from './initial-seed.js';
 import { upgradeBanking as upgradeWorkspace, reduceBanking as reduceV2 } from './versions/v2/banking.js';
 import { useEffect, useRef, useState } from 'react';
 import { assertWorkspace, createWorkspace, withOwnerCapitalSamples, STORAGE_KEY } from './accounting.js';
